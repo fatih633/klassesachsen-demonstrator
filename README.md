@@ -4,6 +4,8 @@ Spielbarer, öffentlich nutzbarer Demonstrator der **N.A.I.L.A. UG (haftungsbesc
 
 > Demonstrator der N.A.I.L.A. UG (haftungsbeschränkt) im Vergabeverfahren klasseSachsen. Keine Anwendung der Staatlichen Schlösser, Burgen und Gärten Sachsen gGmbH.
 
+**Ausprobieren:** [klassesachsen.nailapro.de](https://klassesachsen.nailapro.de) – läuft im Browser, auch auf Tablet und Smartphone; nach dem Startklar-Check auch offline.
+
 Der Demonstrator belegt prüfbar, was das Grobkonzept beschreibt: eine offline-fähige, barrierefreie Web-App ohne Tracking, offen lizenziert, mit Spielelementen für Gruppen der Klassen 4 bis 10 und einer Lehrkräfte-Ansicht, die beobachtet, aber nicht bewertet.
 
 ---
@@ -82,7 +84,7 @@ cd klasseSachsen-demonstrator
 python3 -m http.server 8000
 ```
 
-Dann im Browser **http://localhost:8000/** öffnen. Service Worker und Offline-Betrieb funktionieren auf `localhost` und auf HTTPS-Adressen. Für die Veröffentlichung genügt jedes statische Hosting mit HTTPS.
+Dann im Browser **http://localhost:8000/** öffnen. Die veröffentlichte Fassung liegt bei GitHub Pages unter https://klassesachsen.nailapro.de (Datei `CNAME`). Service Worker und Offline-Betrieb funktionieren auf `localhost` und auf HTTPS-Adressen. Für die Veröffentlichung genügt jedes statische Hosting mit HTTPS.
 
 Zielgeräte: Schul-iPad (Safari, iPadOS 18), Android-Tablet (Chrome) und Laptop. Automatisch geprüft mit **Chrome** (Playwright, auch mit Touch- und Mobil-Emulation) und mit der **WebKit-Engine** (Safari-Engine, Playwright-Build) – einschließlich Offline-Betrieb, Vorlese-Audio und Collage. Safari-Besonderheiten sind eingebaut: Audio-Entsperrung nach der ersten Berührung, Teilantworten (206) für Audio aus dem Cache, eigener WebP-Kodierer. Ein Test auf einem physischen iPad steht noch aus.
 
