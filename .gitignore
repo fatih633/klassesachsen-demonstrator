@@ -1,0 +1,18 @@
+# Prüfergebnisse: Bildschirmfoto-Ordner bleiben lokal, Berichte und Übersichten sind veröffentlicht
+_qa/screenshots/
+_qa/tastatur/
+_qa/offline/
+_qa/webkit/
+_qa/collage/
+
+# Betriebssystem und Editor
+.DS_Store
+Thumbs.db
+*.swp
+
+# Python
+__pycache__/
+*.pyc
+
+# Werkzeuge außerhalb der App
+node_modules/

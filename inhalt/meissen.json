@@ -1,0 +1,211 @@
+{
+  "paket": "meissen",
+  "version": 1,
+  "ort": {
+    "id": "meissen",
+    "name": "Meißen",
+    "thema": "Porzellan",
+    "untertitel": "Albrechtsburg und weißes Gold",
+    "farbe": "kobalt",
+    "intro": "meissen.intro",
+    "facette": "meissen.facette",
+    "beweis": { "code": "WEISSES-GOLD", "text": "meissen.beweis" }
+  },
+  "spiele": [
+    {
+      "id": "meissen-spurensuche",
+      "typ": "spurensuche",
+      "titel": "Die Werkstatt in der Burg",
+      "kompetenz": "Einblick gewinnen",
+      "item": "meissen-tasse",
+      "intro": "meissen.sp.intro",
+      "klassenzimmer": "meissen.sp.klassenzimmer",
+      "szene": "meissen-werkstatt",
+      "bild": "meissen.sp.bild",
+      "aufgaben": [
+        { "ziel": "ofen", "text": "meissen.sp.a1", "tipp1": "meissen.sp.a1.t1", "tipp2": "meissen.sp.a1.t2", "fund": "meissen.sp.a1.fund" },
+        { "ziel": "kaolin", "text": "meissen.sp.a2", "tipp1": "meissen.sp.a2.t1", "tipp2": "meissen.sp.a2.t2", "fund": "meissen.sp.a2.fund" },
+        { "ziel": "malerin", "text": "meissen.sp.a3", "tipp1": "meissen.sp.a3.t1", "tipp2": "meissen.sp.a3.t2", "fund": "meissen.sp.a3.fund" }
+      ],
+      "objekte": [
+        { "id": "regal", "name": "Regal mit Tassen", "x": 40, "y": 120, "w": 250, "h": 150, "antwort": "meissen.sp.o.regal" },
+        { "id": "fenster", "name": "Fenster", "x": 400, "y": 50, "w": 190, "h": 210, "antwort": "meissen.sp.o.fenster" },
+        { "id": "kaolin", "name": "Säcke mit weißer Erde", "x": 30, "y": 420, "w": 230, "h": 190 },
+        { "id": "katze", "name": "Katze", "x": 268, "y": 528, "w": 120, "h": 82, "antwort": "meissen.sp.o.katze" },
+        { "id": "malerin", "name": "Frau am Maltisch", "x": 420, "y": 270, "w": 260, "h": 320 },
+        { "id": "ofen", "name": "Großer Ofen aus Ziegeln", "x": 730, "y": 170, "w": 240, "h": 440 }
+      ],
+      "abschluss": "meissen.sp.ende"
+    },
+    {
+      "id": "meissen-zuordnen",
+      "typ": "zuordnen",
+      "titel": "Rezept für weißes Gold",
+      "kompetenz": "Anwenden",
+      "item": "meissen-teller",
+      "intro": "meissen.zu.intro",
+      "aufgabe": "meissen.zu.aufgabe",
+      "tipp1": "meissen.zu.t1",
+      "tipp2": "meissen.zu.t2",
+      "koerbe": [
+        { "id": "rein", "name": "Gehört in die Porzellanmasse" },
+        { "id": "raus", "name": "Gehört nicht hinein" }
+      ],
+      "karten": [
+        { "id": "gold", "name": "Gold", "icon": "gold", "korb": "raus", "falsch": "meissen.zu.f.gold" },
+        { "id": "kaolin", "name": "Kaolin", "icon": "kaolin", "korb": "rein", "falsch": "meissen.zu.f.kaolin" },
+        { "id": "mehl", "name": "Mehl", "icon": "mehl", "korb": "raus", "falsch": "meissen.zu.f.mehl" },
+        { "id": "quarz", "name": "Quarz", "icon": "quarz", "korb": "rein", "falsch": "meissen.zu.f.quarz" },
+        { "id": "silber", "name": "Silber", "icon": "silber", "korb": "raus", "falsch": "meissen.zu.f.silber" },
+        { "id": "feldspat", "name": "Feldspat", "icon": "feldspat", "korb": "rein", "falsch": "meissen.zu.f.feldspat" }
+      ],
+      "abschluss": "meissen.zu.ende"
+    }
+  ],
+  "items": [
+    { "id": "meissen-tasse", "name": "Porzellantasse", "text": "meissen.item.tasse" },
+    { "id": "meissen-teller", "name": "Porzellanteller", "text": "meissen.item.teller" }
+  ],
+  "texte": {
+    "meissen.intro": {
+      "n": "In Meißen steht auf einem Berg an der Elbe die Albrechtsburg. Sie gilt als ältestes Schloss Deutschlands. Im Jahr 1710 begann hier die erste Porzellanmanufaktur Europas. Rund 150 Jahre lang wurde in der Burg Porzellan hergestellt. Porzellan war kostbar. Man nannte es auch „weißes Gold“.",
+      "e": "In Meißen steht eine alte Burg. Sie heißt Albrechtsburg. Ab 1710 machten Menschen dort Porzellan. Das war das erste Mal in Europa. Porzellan war sehr wertvoll. Man nannte es „weißes Gold“."
+    },
+    "meissen.facette": {
+      "n": "Sachsen ist auch: Erfindergeist und feines Handwerk.",
+      "e": "Sachsen ist auch: gute Ideen und gutes Handwerk."
+    },
+    "meissen.beweis": {
+      "n": "Seid ihr wirklich an der Albrechtsburg? Dann scannt den QR-Code vor Ort oder tippt den Code vom Schild ein. Das ist freiwillig.",
+      "e": "Seid ihr an der Burg? Dann scannt den QR-Code. Oder tippt den Code ein. Das müsst ihr nicht."
+    },
+    "meissen.sp.intro": {
+      "n": "Ich war schon einmal in einer Porzellanwerkstatt. Ich habe nichts angefasst. Fast nichts. Helft mir, drei wichtige Dinge zu finden!",
+      "e": "In dieser Werkstatt wird Porzellan gemacht. Findet drei wichtige Dinge im Bild!"
+    },
+    "meissen.sp.klassenzimmer": {
+      "n": "Ihr seid im Klassenzimmer? Kein Problem: Ihr sucht alles im Bild.",
+      "e": "Ihr seid in der Schule? Dann sucht ihr alles im Bild."
+    },
+    "meissen.sp.bild": {
+      "n": "Das Bild zeigt eine Werkstatt mit Steinwänden. Oben links steht ein Regal mit Tassen, oben in der Mitte ist ein Fenster. Unten links stehen Säcke, daneben schläft eine Katze. In der Mitte sitzt eine Frau an einem Maltisch. Rechts steht ein großer Ofen aus Ziegeln mit Feuer.",
+      "e": "Eine Werkstatt. Links oben: ein Regal. Oben in der Mitte: ein Fenster. Links unten: Säcke und eine Katze. In der Mitte: eine Frau am Tisch. Rechts: ein großer Ofen."
+    },
+    "meissen.sp.a1": {
+      "n": "Findet den Ofen, in dem das Porzellan gebrannt wird.",
+      "e": "Wo ist der Ofen? Darin wird das Porzellan heiß gemacht."
+    },
+    "meissen.sp.a1.t1": {
+      "n": "Wo ist es im Bild besonders warm?",
+      "e": "Sucht etwas mit Feuer."
+    },
+    "meissen.sp.a1.t2": {
+      "n": "Schaut auf die rechte Seite des Bildes.",
+      "e": "Er ist rechts im Bild."
+    },
+    "meissen.sp.a1.fund": {
+      "n": "Richtig! Im Ofen wird das Porzellan gebrannt. Beim letzten Brand wird es bis zu 1.400 Grad heiß. Danach ist das Porzellan hart und glänzt.",
+      "e": "Richtig! Im Ofen wird das Porzellan sehr heiß. Bis zu 1.400 Grad! Danach ist es hart."
+    },
+    "meissen.sp.a2": {
+      "n": "Findet die Porzellanerde. Sie heißt Kaolin und ist ganz weiß.",
+      "e": "Wo ist die weiße Erde? Sie heißt Kaolin."
+    },
+    "meissen.sp.a2.t1": {
+      "n": "Die Erde wird in Säcken aufbewahrt.",
+      "e": "Sucht Säcke."
+    },
+    "meissen.sp.a2.t2": {
+      "n": "Schaut unten links.",
+      "e": "Unten links."
+    },
+    "meissen.sp.a2.fund": {
+      "n": "Gefunden! Kaolin ist der wichtigste Rohstoff für Porzellan. Die Manufaktur holt ihn seit 1764 aus Seilitz, einem kleinen Dorf nicht weit von Meißen.",
+      "e": "Gefunden! Ohne Kaolin gibt es kein Porzellan. Das Kaolin kommt aus Seilitz. Das ist ein Dorf bei Meißen."
+    },
+    "meissen.sp.a3": {
+      "n": "Findet die Person, die mit blauer Farbe malt.",
+      "e": "Wer malt mit blauer Farbe?"
+    },
+    "meissen.sp.a3.t1": {
+      "n": "Sucht einen Tisch mit Pinseln und Tellern.",
+      "e": "Sucht einen Tisch mit Pinseln."
+    },
+    "meissen.sp.a3.t2": {
+      "n": "Schaut in die Mitte des Bildes.",
+      "e": "In der Mitte."
+    },
+    "meissen.sp.a3.fund": {
+      "n": "Genau! Sie malt mit Kobaltblau unter die Glasur. Die Farbe leuchtet erst nach dem Brennen richtig. Fehler kann man dabei nicht verbessern.",
+      "e": "Genau! Sie malt mit Kobaltblau. Die Farbe leuchtet erst nach dem Brennen. Fehler kann man nicht wegmachen."
+    },
+    "meissen.sp.o.katze": {
+      "n": "Das ist Mitzi, die Werkstattkatze. Sie ist sehr beschäftigt: mit Schlafen. Sucht weiter!",
+      "e": "Das ist eine Katze. Sie schläft. Sucht weiter!"
+    },
+    "meissen.sp.o.fenster": {
+      "n": "Ein Fenster mit Blick auf die Elbe. Sehr schön – aber gesucht ist etwas anderes.",
+      "e": "Ein Fenster. Schön! Aber sucht weiter."
+    },
+    "meissen.sp.o.regal": {
+      "n": "Ein Regal voller fertiger Tassen. Fast hätte ich mich draufgesetzt. Sucht weiter!",
+      "e": "Hier stehen fertige Tassen. Sucht weiter!"
+    },
+    "meissen.sp.ende": {
+      "n": "Ofen, Kaolin und Kobaltblau – jetzt wisst ihr, was in einer Porzellanwerkstatt wichtig ist. Als Andenken bekommt ihr eine Porzellantasse. Bitte nicht fallen lassen!",
+      "e": "Ihr habt alles gefunden! Ihr bekommt eine Tasse aus Porzellan."
+    },
+    "meissen.zu.intro": {
+      "n": "Ich wollte einmal selbst Porzellan machen. Ich habe Brotkrümel genommen. Das war ein Fehler. Woraus besteht Porzellan wirklich?",
+      "e": "Woraus macht man Porzellan? Findet es heraus!"
+    },
+    "meissen.zu.aufgabe": {
+      "n": "Was gehört in die Porzellanmasse – und was nicht? Wählt zuerst eine Karte und dann den passenden Korb. Am Ende prüft das Protokoll.",
+      "e": "Was kommt ins Porzellan? Tippt auf eine Karte. Dann tippt auf einen Korb."
+    },
+    "meissen.zu.t1": {
+      "n": "Drei Karten gehören hinein. Alle drei kommen aus der Erde.",
+      "e": "Drei Karten gehören hinein. Sie kommen aus der Erde."
+    },
+    "meissen.zu.t2": {
+      "n": "Edelmetalle und Lebensmittel gehören nicht hinein.",
+      "e": "Gold, Silber und Essen gehören nicht hinein."
+    },
+    "meissen.zu.f.gold": {
+      "n": "Kein echtes Gold! „Weißes Gold“ ist nur ein Spitzname für Porzellan.",
+      "e": "Kein echtes Gold! „Weißes Gold“ ist nur ein Spitzname."
+    },
+    "meissen.zu.f.silber": {
+      "n": "Silber? Das gehört nach Freiberg, nicht in die Tasse!",
+      "e": "Silber kommt nicht ins Porzellan."
+    },
+    "meissen.zu.f.mehl": {
+      "n": "Mit Mehl backt man Kuchen, kein Porzellan. Lecker wäre es trotzdem.",
+      "e": "Mehl ist für Kuchen. Nicht für Porzellan."
+    },
+    "meissen.zu.f.kaolin": {
+      "n": "Doch! Ohne Kaolin geht gar nichts.",
+      "e": "Doch! Kaolin gehört hinein."
+    },
+    "meissen.zu.f.feldspat": {
+      "n": "Doch! Feldspat gehört in die Porzellanmasse.",
+      "e": "Doch! Feldspat gehört hinein."
+    },
+    "meissen.zu.f.quarz": {
+      "n": "Doch! Quarz gehört in die Porzellanmasse.",
+      "e": "Doch! Quarz gehört hinein."
+    },
+    "meissen.zu.ende": {
+      "n": "Kaolin, Feldspat und Quarz – daraus besteht die Porzellanmasse. Wie genau gemischt wird, hütet die Manufaktur bis heute als Geheimnis. Ihr bekommt einen Porzellanteller.",
+      "e": "Kaolin, Feldspat und Quarz! Daraus macht man Porzellan. Ihr bekommt einen Teller."
+    },
+    "meissen.item.tasse": {
+      "n": "In Meißen wird seit 1710 Porzellan hergestellt.",
+      "e": "In Meißen macht man seit 1710 Porzellan."
+    },
+    "meissen.item.teller": {
+      "n": "Kobaltblau war am Anfang die einzige Farbe, mit der man unter die Glasur malen konnte.",
+      "e": "Früher gab es nur eine Farbe für unter die Glasur: Kobaltblau."
+    }
+  }
+}

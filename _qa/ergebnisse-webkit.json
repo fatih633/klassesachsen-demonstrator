@@ -1,0 +1,35 @@
+{
+ "axe": {
+  "start": [],
+  "karte": [],
+  "belohnung": [],
+  "zuordnen": [],
+  "zeitstrahl": [],
+  "schaetzfrage-aufloesung": [],
+  "collage": [],
+  "lehrkraefte-gruppenansicht": [],
+  "lehrkraefte-gruppen": []
+ },
+ "fehler": [
+  "TEXTWACHE text @ #/: /*! axe v4.14.1\n * Copyright (c) 2015 - 2026 Deque Systems, Inc.\n *\n * Your use of this Source Code Form is subject to the terms of the Mozi",
+  "TEXTWACHE text @ #/collage: /*! axe v4.14.1\n * Copyright (c) 2015 - 2026 Deque Systems, Inc.\n *\n * Your use of this Source Code Form is subject to the terms of the Mozi",
+  "TEXTWACHE text @ #/lehrkraefte/gruppe/g-1v71xbj1qr9uyx: /*! axe v4.14.1\n * Copyright (c) 2015 - 2026 Deque Systems, Inc.\n *\n * Your use of this Source Code Form is subject to the terms of the Mozi"
+ ],
+ "engine": "WebKit 26.6",
+ "protokoll": [
+  "Spurensuche „Unter Tage“ gelöst: True",
+  "Zuordnen gelöst (mit gestuften Hilfen): True",
+  "Zeitstrahl gelöst: True",
+  "Schätzfrage gelöst (gemeinsame Schätzung 51.000): True",
+  "Vorlesen: Art audio, Datei leipzig.intro.n.mp3, Zeit 1.97 s, markiertes Wort „Nikolaikirche.“",
+  "Collage-Datei .png: 2048 × 2048 px, PNG",
+  "Collage-Datei .webp: 512 × 512 px, WEBP",
+  "Collage-JSON: Erzeugungsart regelbasiert, WebP-Kodierung: eigener Kodierer (verlustfrei, VP8L)",
+  "Service Worker verfügbar: True",
+  "Startklar-Check grün (online)",
+  "Server beendet (kein Netz mehr erreichbar)",
+  "Ohne Server neu geladen (Seitenwechsel auf andere Datei): „Datenschutz“",
+  "Ohne Server App neu geladen: „Was ist sächsisch?“",
+  "Offline gespielt (Ofen gefunden): True"
+ ]
+}

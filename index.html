@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>klasseSachsen – Demonstrator</title>
+  <meta name="description" content="Spielbarer Demonstrator: Quest „Was ist sächsisch?“ mit drei Orten, sechs Minigames, Vorlesefunktion, Item-Collage und Lehrkräfte-Ansicht. Offline, ohne Tracking, Open Source.">
+  <meta name="theme-color" content="#2350A8">
+  <meta name="color-scheme" content="light">
+  <meta name="referrer" content="no-referrer">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="klasseSachsen">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+  <link rel="stylesheet" href="css/app.css">
+  <script type="module" src="js/app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#inhalt">Zum Inhalt springen</a>
+  <header class="kopf" id="kopf">
+    <div class="kopf__innen">
+      <a class="marke" href="#/" aria-label="klasseSachsen – Demonstrator, zur Startseite">
+        <span class="marke__bild" aria-hidden="true" id="marke-bild"></span>
+        <span class="marke__text">klasse<b>Sachsen</b></span>
+        <span class="marke__tag">Demonstrator</span>
+      </a>
+      <div class="kopf__werkzeuge">
+        <button type="button" class="schalter" id="schalter-einfach" aria-pressed="false">
+          <span class="schalter__spur" aria-hidden="true"><span class="schalter__knopf"></span></span>
+          <span class="schalter__text">Einfache Sprache</span>
+        </button>
+        <button type="button" class="knopf knopf--klein knopf--zweit" id="knopf-einstellungen" aria-haspopup="dialog">
+          <span class="knopf__icon" aria-hidden="true" data-icon="regler"></span>
+          <span>Anzeige<span class="nur-breit"> &amp; Vorlesen</span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="inhalt" class="haupt" tabindex="-1">
+    <noscript>
+      <div class="karte-box">
+        <h1>klasseSachsen – Demonstrator</h1>
+        <p>Dieser Demonstrator braucht JavaScript. Bitte aktiviert JavaScript im Browser.</p>
+      </div>
+    </noscript>
+    <div class="laden" id="laden" role="status">Lädt …</div>
+  </main>
+
+  <div class="vorleser" id="vorleser" hidden>
+    <div class="vorleser__innen">
+      <span class="vorleser__status" id="vorleser-status" aria-live="polite">Vorlesen</span>
+      <button type="button" class="knopf knopf--klein" id="vorleser-pause">Pause</button>
+      <button type="button" class="knopf knopf--klein knopf--zweit" id="vorleser-stopp">Stopp</button>
+      <label class="vorleser__tempo">Tempo
+        <select id="vorleser-tempo">
+          <option value="0.75">0,75-fach</option>
+          <option value="1">1-fach</option>
+          <option value="1.25">1,25-fach</option>
+          <option value="1.5">1,5-fach</option>
+        </select>
+      </label>
+    </div>
+  </div>
+
+  <footer class="fuss">
+    <div class="fuss__innen">
+      <p class="fuss__hinweis">Demonstrator der N.A.I.L.A. UG (haftungsbeschränkt) im Vergabeverfahren klasseSachsen. Keine Anwendung der Staatlichen Schlösser, Burgen und Gärten Sachsen gGmbH.</p>
+      <nav aria-label="Rechtliches und Informationen">
+        <ul class="fuss__links">
+          <li><a href="barrierefreiheit.html">Erklärung zur Barrierefreiheit</a></li>
+          <li><a href="datenschutz.html">Datenschutz</a></li>
+          <li><a href="impressum.html">Impressum</a></li>
+          <li><a href="#/ueber">Offener Quellcode und Lizenzen</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+
+  <div class="sr-ansage" id="ansage" role="status" aria-live="polite" aria-atomic="true"></div>
+
+  <dialog class="dialog" id="dialog-einstellungen" aria-labelledby="dlg-einst-titel">
+    <form method="dialog" class="dialog__form" id="form-einstellungen">
+      <h2 id="dlg-einst-titel">Anzeige &amp; Vorlesen</h2>
+      <fieldset>
+        <legend>Sprache</legend>
+        <label class="option"><input type="checkbox" name="einfach"> Einfache Sprache</label>
+      </fieldset>
+      <fieldset>
+        <legend>Vorlesen</legend>
+        <div class="optionen-reihe" role="group" aria-label="Vorlesetempo">
+          <label class="option option--chip"><input type="radio" name="tempo" value="0.75"> 0,75-fach</label>
+          <label class="option option--chip"><input type="radio" name="tempo" value="1"> 1-fach</label>
+          <label class="option option--chip"><input type="radio" name="tempo" value="1.25"> 1,25-fach</label>
+          <label class="option option--chip"><input type="radio" name="tempo" value="1.5"> 1,5-fach</label>
+        </div>
+        <label class="option"><input type="checkbox" name="markierung"> Gelesene Wörter markieren</label>
+        <label class="option"><input type="checkbox" name="auto"> Neue Texte automatisch vorlesen</label>
+        <label class="option"><input type="checkbox" name="geraetestimme"> Gerätestimme statt Aufnahme verwenden</label>
+      </fieldset>
+      <fieldset>
+        <legend>Darstellung</legend>
+        <div class="optionen-reihe" role="group" aria-label="Schriftgröße">
+          <label class="option option--chip"><input type="radio" name="schrift" value="normal"> Schrift normal</label>
+          <label class="option option--chip"><input type="radio" name="schrift" value="gross"> Schrift groß</label>
+          <label class="option option--chip"><input type="radio" name="schrift" value="sehr-gross"> Schrift sehr groß</label>
+        </div>
+        <label class="option"><input type="checkbox" name="kontrast"> Hoher Kontrast</label>
+        <label class="option"><input type="checkbox" name="ruhig"> Bewegungen abschalten</label>
+      </fieldset>
+      <div class="dialog__aktionen">
+        <button type="submit" class="knopf" value="ok">Fertig</button>
+      </div>
+    </form>
+  </dialog>
+</body>
+</html>

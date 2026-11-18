@@ -1,0 +1,42 @@
+[
+ {
+  "vorlage": "rosette",
+  "stimmung": "porzellan",
+  "groesse": 512,
+  "bytes": 89044,
+  "roh_bytes": 1048576,
+  "kodierzeit_ms": 39.9,
+  "pixelgleich": true,
+  "format": "WEBP"
+ },
+ {
+  "vorlage": "mosaik",
+  "stimmung": "kerzenschein",
+  "groesse": 512,
+  "bytes": 104218,
+  "roh_bytes": 1048576,
+  "kodierzeit_ms": 12.4,
+  "pixelgleich": true,
+  "format": "WEBP"
+ },
+ {
+  "vorlage": "raster",
+  "stimmung": "silber",
+  "groesse": 300,
+  "bytes": 25136,
+  "roh_bytes": 360000,
+  "kodierzeit_ms": 6.2,
+  "pixelgleich": true,
+  "format": "WEBP"
+ },
+ {
+  "vorlage": "rosette",
+  "stimmung": "sachsenbunt",
+  "groesse": 97,
+  "bytes": 10242,
+  "roh_bytes": 37636,
+  "kodierzeit_ms": 2.4,
+  "pixelgleich": true,
+  "format": "WEBP"
+ }
+]

@@ -1,0 +1,198 @@
+{
+  "paket": "freiberg",
+  "version": 1,
+  "ort": {
+    "id": "freiberg",
+    "name": "Freiberg",
+    "thema": "Silberbergbau",
+    "untertitel": "Silberstadt und Bergakademie",
+    "farbe": "schiefer",
+    "intro": "freiberg.intro",
+    "facette": "freiberg.facette",
+    "beweis": { "code": "GLUECK-AUF", "text": "freiberg.beweis" }
+  },
+  "spiele": [
+    {
+      "id": "freiberg-schaetzfrage",
+      "typ": "schaetzfrage",
+      "titel": "Wie lange gruben die Bergleute?",
+      "kompetenz": "Kennen, Anwenden",
+      "item": "freiberg-lampe",
+      "intro": "freiberg.sf.intro",
+      "frage": "freiberg.sf.frage",
+      "einheit": "Jahre",
+      "min": 0,
+      "max": 3000,
+      "start": 100,
+      "schritte": [10, 100],
+      "loesung": 800,
+      "loesungAnzeige": "rund 800 Jahre",
+      "tipp1": "freiberg.sf.t1",
+      "tipp2": "freiberg.sf.t2",
+      "aufloesung": "freiberg.sf.loesung",
+      "rechenweg": "freiberg.sf.rechenweg",
+      "formel": "1969 − 1168 = 801 ≈ 800",
+      "abschluss": "freiberg.sf.ende"
+    },
+    {
+      "id": "freiberg-spurensuche",
+      "typ": "spurensuche",
+      "titel": "Unter Tage",
+      "kompetenz": "Einblick gewinnen",
+      "item": "freiberg-erz",
+      "intro": "freiberg.sp.intro",
+      "klassenzimmer": "freiberg.sp.klassenzimmer",
+      "szene": "freiberg-bergwerk",
+      "bild": "freiberg.sp.bild",
+      "aufgaben": [
+        { "ziel": "hunt", "text": "freiberg.sp.a1", "tipp1": "freiberg.sp.a1.t1", "tipp2": "freiberg.sp.a1.t2", "fund": "freiberg.sp.a1.fund" },
+        { "ziel": "fahrt", "text": "freiberg.sp.a2", "tipp1": "freiberg.sp.a2.t1", "tipp2": "freiberg.sp.a2.t2", "fund": "freiberg.sp.a2.fund" },
+        { "ziel": "gang", "text": "freiberg.sp.a3", "tipp1": "freiberg.sp.a3.t1", "tipp2": "freiberg.sp.a3.t2", "fund": "freiberg.sp.a3.fund" }
+      ],
+      "objekte": [
+        { "id": "fahrt", "name": "Leiter im Schacht", "x": 70, "y": 150, "w": 130, "h": 460 },
+        { "id": "werkzeug", "name": "Zwei Werkzeuge an der Wand", "x": 240, "y": 250, "w": 130, "h": 120, "antwort": "freiberg.sp.o.werkzeug" },
+        { "id": "fledermaus", "name": "Fledermaus", "x": 520, "y": 300, "w": 110, "h": 80, "antwort": "freiberg.sp.o.fledermaus" },
+        { "id": "gang", "name": "Glitzerndes Band im Felsen", "x": 650, "y": 150, "w": 300, "h": 230 },
+        { "id": "hunt", "name": "Kasten auf Rädern", "x": 330, "y": 440, "w": 220, "h": 150 },
+        { "id": "kiste", "name": "Schatzkiste", "x": 640, "y": 470, "w": 120, "h": 110, "antwort": "freiberg.sp.o.kiste" },
+        { "id": "zwerg", "name": "Zwerg hinter einem Stein", "x": 826, "y": 398, "w": 140, "h": 208, "antwort": "freiberg.sp.o.zwerg" }
+      ],
+      "abschluss": "freiberg.sp.ende"
+    }
+  ],
+  "items": [
+    { "id": "freiberg-lampe", "name": "Grubenlampe", "text": "freiberg.item.lampe" },
+    { "id": "freiberg-erz", "name": "Silbererz", "text": "freiberg.item.erz" }
+  ],
+  "texte": {
+    "freiberg.intro": {
+      "n": "Glück auf! So grüßen sich die Bergleute. Freiberg nennt sich Silberstadt, denn hier wurde sehr lange Silber aus der Erde geholt. In Freiberg steht auch die Bergakademie, gegründet 1765. Sie gilt als älteste noch bestehende Hochschule für Bergbau der Welt. Seit 2019 gehört die Montanregion Erzgebirge zum Welterbe der UNESCO.",
+      "e": "Glück auf! So grüßen sich Bergleute. Freiberg heißt auch Silberstadt. Hier holten Menschen Silber aus der Erde. In Freiberg gibt es eine sehr alte Hochschule für Bergbau."
+    },
+    "freiberg.facette": {
+      "n": "Sachsen ist auch: harte Arbeit unter Tage und Forschung.",
+      "e": "Sachsen ist auch: harte Arbeit unter der Erde."
+    },
+    "freiberg.beweis": {
+      "n": "Seid ihr wirklich in Freiberg? Dann scannt den QR-Code vor Ort oder tippt den Code vom Schild ein. Das ist freiwillig.",
+      "e": "Seid ihr in Freiberg? Dann scannt den QR-Code. Oder tippt den Code ein. Das müsst ihr nicht."
+    },
+    "freiberg.sf.intro": {
+      "n": "Ich habe einmal versucht, ein Loch zu graben. Nach zwei Minuten war ich fertig. Mit den Nerven. Die Bergleute in Freiberg hatten mehr Ausdauer. Viel mehr!",
+      "e": "Ich habe mal ein Loch gegraben. Nach zwei Minuten hatte ich keine Lust mehr. Die Bergleute in Freiberg haben sehr lange gegraben."
+    },
+    "freiberg.sf.frage": {
+      "n": "Wie viele Jahre lang gab es in Freiberg Bergbau? Beratet euch und gebt eine gemeinsame Schätzung ab.",
+      "e": "Wie viele Jahre gab es in Freiberg Bergbau? Sprecht zusammen. Dann schätzt ihr eine Zahl."
+    },
+    "freiberg.sf.t1": {
+      "n": "Der Bergbau begann im Jahr 1168. Der Sage nach fanden Händler damals das erste Silber.",
+      "e": "Der Bergbau begann im Jahr 1168."
+    },
+    "freiberg.sf.t2": {
+      "n": "Im Jahr 1969 wurde der Bergbau eingestellt. Jetzt könnt ihr rechnen!",
+      "e": "Im Jahr 1969 war Schluss. Jetzt könnt ihr rechnen!"
+    },
+    "freiberg.sf.loesung": {
+      "n": "Rund 800 Jahre! Von 1168 bis 1969 holten Bergleute in Freiberg Erz aus der Erde – vor allem Silber.",
+      "e": "Rund 800 Jahre! So lange gab es in Freiberg Bergbau."
+    },
+    "freiberg.sf.rechenweg": {
+      "n": "So rechnet ihr: 1969 [−|minus] 1168 [=|ergibt] 801. Das sind rund 800 Jahre.",
+      "e": "Rechnung: 1969 [−|minus] 1168. Das sind ungefähr 800 Jahre."
+    },
+    "freiberg.sf.ende": {
+      "n": "Acht Jahrhunderte! Als Andenken bekommt ihr eine Grubenlampe. Unter Tage ist es stockdunkel. Die Bergleute nennen ihre Lampe „Geleucht“.",
+      "e": "Ihr bekommt eine Grubenlampe. Unter der Erde ist es dunkel. Bergleute sagen zur Lampe „Geleucht“."
+    },
+    "freiberg.sp.intro": {
+      "n": "Bergleute haben ihre eigene Sprache. Wer sie nicht kennt, sucht schnell das Falsche. Ich zum Beispiel habe nach einem Hund gesucht. Findet drei Dinge im Bergwerk!",
+      "e": "Bergleute haben eigene Wörter. Findet drei Dinge im Bergwerk!"
+    },
+    "freiberg.sp.klassenzimmer": {
+      "n": "Ihr seid im Klassenzimmer? Kein Problem: Ihr sucht alles im Bild.",
+      "e": "Ihr seid in der Schule? Dann sucht ihr alles im Bild."
+    },
+    "freiberg.sp.bild": {
+      "n": "Das Bild zeigt ein Bergwerk von der Seite. Links geht ein Schacht nach unten, darin steht eine Leiter. An der Wand hängen zwei Werkzeuge. In der Mitte hängt eine Fledermaus an der Decke. Rechts oben glitzert ein Band im Felsen. Unten fährt ein Kasten auf Rädern über Schienen. Daneben stehen eine Schatzkiste und ganz rechts ein Zwerg hinter einem Stein.",
+      "e": "Ein Bergwerk. Links: ein Schacht mit Leiter. In der Mitte: eine Fledermaus. Rechts oben: etwas glitzert im Felsen. Unten: ein Kasten auf Rädern, eine Kiste und ein Zwerg."
+    },
+    "freiberg.sp.a1": {
+      "n": "Findet den Hunt!",
+      "e": "Wo ist der Hunt?"
+    },
+    "freiberg.sp.a1.t1": {
+      "n": "Ein Hunt ist kein Hund. Er hat aber Räder.",
+      "e": "Kein Hund! Ein Hunt hat Räder."
+    },
+    "freiberg.sp.a1.t2": {
+      "n": "Schaut auf die Schienen unten in der Mitte.",
+      "e": "Unten in der Mitte."
+    },
+    "freiberg.sp.a1.fund": {
+      "n": "Gefunden! Der Hunt ist ein Kasten auf Rädern. Darin wurde das Erz nach über Tage gebracht, also nach oben an die Erdoberfläche.",
+      "e": "Richtig! Der Hunt ist ein Wagen für das Erz. Damit kommt das Erz nach oben."
+    },
+    "freiberg.sp.a2": {
+      "n": "Findet die Fahrt!",
+      "e": "Wo ist die Fahrt?"
+    },
+    "freiberg.sp.a2.t1": {
+      "n": "Mit einer Fahrt fährt man nicht. Man klettert.",
+      "e": "Auf einer Fahrt klettert man."
+    },
+    "freiberg.sp.a2.t2": {
+      "n": "Schaut in den Schacht auf der linken Seite.",
+      "e": "Links im Schacht."
+    },
+    "freiberg.sp.a2.fund": {
+      "n": "Richtig! „Fahrt“ heißt in der Bergmannssprache: Leiter. Damit klettert man im Schacht nach oben und nach unten.",
+      "e": "Richtig! Eine Fahrt ist eine Leiter."
+    },
+    "freiberg.sp.a3": {
+      "n": "Findet den Erzgang mit dem Silber!",
+      "e": "Wo ist der Erzgang mit dem Silber?"
+    },
+    "freiberg.sp.a3.t1": {
+      "n": "Ein Gang ist hier kein Flur. Er ist wie ein Riss im Gestein.",
+      "e": "Ein Gang ist hier wie ein Riss im Stein."
+    },
+    "freiberg.sp.a3.t2": {
+      "n": "Schaut, wo es im Felsen rechts oben glitzert.",
+      "e": "Rechts oben glitzert es."
+    },
+    "freiberg.sp.a3.fund": {
+      "n": "Gefunden! Ein Gang ist wie ein Riss im Gebirge, in dem sich Erz abgelagert hat. Rund um Freiberg gab es reiche Erzgänge mit Silber.",
+      "e": "Richtig! Im Gang steckt das Erz mit dem Silber."
+    },
+    "freiberg.sp.o.werkzeug": {
+      "n": "Schlägel und Eisen! Der Schlägel ist der Hammer der Bergleute. Zusammen mit dem Eisen ist er bis heute das Zeichen des Bergbaus. Gesucht ist aber etwas anderes.",
+      "e": "Das ist Werkzeug der Bergleute. Aber sucht weiter."
+    },
+    "freiberg.sp.o.fledermaus": {
+      "n": "Eine Fledermaus! Die braucht im Dunkeln keine Lampe. Sucht weiter!",
+      "e": "Eine Fledermaus. Sucht weiter!"
+    },
+    "freiberg.sp.o.kiste": {
+      "n": "Eine Schatzkiste? Leider nein. Das Silber steckt im Gestein, nicht in Kisten.",
+      "e": "Eine Kiste. Das Silber ist aber im Stein."
+    },
+    "freiberg.sp.o.zwerg": {
+      "n": "Ein Zwerg? Den gibt es nur im Märchen. Sucht weiter!",
+      "e": "Ein Zwerg? Den gibt es nur im Märchen."
+    },
+    "freiberg.sp.ende": {
+      "n": "Hunt, Fahrt und Gang – ihr sprecht jetzt ein bisschen Bergmannssprache! Ihr bekommt ein Stück Silbererz.",
+      "e": "Ihr kennt jetzt Wörter der Bergleute! Ihr bekommt ein Stück Silbererz."
+    },
+    "freiberg.item.lampe": {
+      "n": "Unter Tage ist es stockdunkel. Die Bergleute nennen ihre Lampe „Geleucht“.",
+      "e": "Eine Lampe für unter der Erde."
+    },
+    "freiberg.item.erz": {
+      "n": "In den Erzgängen rund um Freiberg steckte Silber.",
+      "e": "Ein Stein mit Silber darin."
+    }
+  }
+}

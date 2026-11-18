@@ -1,0 +1,157 @@
+{
+  "paket": "leipzig",
+  "version": 1,
+  "ort": {
+    "id": "leipzig",
+    "name": "Leipzig",
+    "thema": "Friedliche Revolution 1989",
+    "untertitel": "Nikolaikirche und Montagsdemonstrationen",
+    "farbe": "kerze",
+    "intro": "leipzig.intro",
+    "facette": "leipzig.facette",
+    "beweis": { "code": "KEINE-GEWALT", "text": "leipzig.beweis" }
+  },
+  "spiele": [
+    {
+      "id": "leipzig-zeitstrahl",
+      "typ": "zeitstrahl",
+      "titel": "Der Herbst 1989",
+      "kompetenz": "Kennen",
+      "item": "leipzig-saeule",
+      "intro": "leipzig.zs.intro",
+      "aufgabe": "leipzig.zs.aufgabe",
+      "tipp1": "leipzig.zs.t1",
+      "tipp2": "leipzig.zs.t2",
+      "karten": [
+        { "id": "gebet", "titel": "Friedensgebete beginnen", "datum": "September 1982", "text": "leipzig.zs.k.gebet", "icon": "kirche" },
+        { "id": "plakate", "titel": "Plakate nach dem Friedensgebet", "datum": "4. September 1989", "text": "leipzig.zs.k.plakate", "icon": "plakat" },
+        { "id": "ring", "titel": "Demonstration auf dem Ring", "datum": "9. Oktober 1989", "text": "leipzig.zs.k.ring", "icon": "menge" },
+        { "id": "mauer", "titel": "Die Mauer ist offen", "datum": "9. November 1989", "text": "leipzig.zs.k.mauer", "icon": "mauer" },
+        { "id": "einheit", "titel": "Deutsche Einheit", "datum": "3. Oktober 1990", "text": "leipzig.zs.k.einheit", "icon": "einheit" }
+      ],
+      "start": ["ring", "gebet", "einheit", "plakate", "mauer"],
+      "loesungText": "leipzig.zs.loesung",
+      "abschluss": "leipzig.zs.ende"
+    },
+    {
+      "id": "leipzig-schaetzfrage",
+      "typ": "schaetzfrage",
+      "titel": "Wie viele waren es?",
+      "kompetenz": "Kennen, Anwenden",
+      "item": "leipzig-kerze",
+      "intro": "leipzig.sf.intro",
+      "frage": "leipzig.sf.frage",
+      "einheit": "Menschen",
+      "min": 0,
+      "max": 1000000,
+      "start": 1000,
+      "schritte": [1000, 10000],
+      "loesung": 70000,
+      "loesungAnzeige": "mindestens 70.000 Menschen",
+      "tipp1": "leipzig.sf.t1",
+      "tipp2": "leipzig.sf.t2",
+      "aufloesung": "leipzig.sf.loesung",
+      "rechenweg": "leipzig.sf.rechenweg",
+      "formel": "70.000 : 25 = 2.800",
+      "abschluss": "leipzig.sf.ende"
+    }
+  ],
+  "items": [
+    { "id": "leipzig-saeule", "name": "Palmensäule", "text": "leipzig.item.saeule" },
+    { "id": "leipzig-kerze", "name": "Kerze", "text": "leipzig.item.kerze" }
+  ],
+  "texte": {
+    "leipzig.intro": {
+      "n": "In Leipzig steht die Nikolaikirche. Seit 1982 kommen hier jeden Montag um 17 Uhr Menschen zum Friedensgebet zusammen. Im Herbst 1989 zogen danach Tausende friedlich durch die Stadt. Sie forderten ein offenes Land mit freien Menschen. So wurde die Nikolaikirche zum Ausgangspunkt der Friedlichen Revolution in der DDR.",
+      "e": "In Leipzig steht die Nikolaikirche. Dort beten Menschen jeden Montag für den Frieden. Das machen sie seit 1982. Im Herbst 1989 gingen danach sehr viele Menschen auf die Straße. Sie waren friedlich. Sie wollten frei sein."
+    },
+    "leipzig.facette": {
+      "n": "Sachsen ist auch: Mut, Zusammenhalt und friedlicher Protest.",
+      "e": "Sachsen ist auch: Mut und Zusammenhalt."
+    },
+    "leipzig.beweis": {
+      "n": "Seid ihr wirklich an der Nikolaikirche? Dann scannt den QR-Code vor Ort oder tippt den Code vom Schild ein. Das ist freiwillig.",
+      "e": "Seid ihr an der Nikolaikirche? Dann scannt den QR-Code. Oder tippt den Code ein. Das müsst ihr nicht."
+    },
+    "leipzig.zs.intro": {
+      "n": "Damals war ich noch nicht einmal ein Ei. Aber meine Ur-ur-ur-Großtaube hat alles von oben gesehen. Bringt die Ereignisse in die richtige Reihenfolge!",
+      "e": "Was ist 1989 passiert? Bringt die Ereignisse in die richtige Reihenfolge!"
+    },
+    "leipzig.zs.aufgabe": {
+      "n": "Ordnet die Karten: Das früheste Ereignis kommt nach oben. Verschiebt die Karten mit den Knöpfen „nach oben“ und „nach unten“. Dann prüft das Protokoll.",
+      "e": "Was war zuerst? Das kommt nach oben. Benutzt die Knöpfe „nach oben“ und „nach unten“."
+    },
+    "leipzig.zs.t1": {
+      "n": "Die Friedensgebete gab es schon viele Jahre vor den großen Demonstrationen.",
+      "e": "Die Friedensgebete waren zuerst."
+    },
+    "leipzig.zs.t2": {
+      "n": "Erst ging die Mauer auf, ein knappes Jahr später kam die Deutsche Einheit.",
+      "e": "Erst ging die Mauer auf. Danach kam die Einheit."
+    },
+    "leipzig.zs.k.gebet": {
+      "n": "In der Nikolaikirche beginnen die Friedensgebete. Von nun an treffen sich Menschen jeden Montag um 17 Uhr.",
+      "e": "In der Nikolaikirche beginnen die Friedensgebete. Jeden Montag."
+    },
+    "leipzig.zs.k.plakate": {
+      "n": "Nach dem Friedensgebet zeigen Menschen Plakate: „Für ein offenes Land mit freien Menschen“. Die Stasi, die Geheimpolizei der DDR, macht die Plakate kaputt.",
+      "e": "Menschen zeigen Plakate: „Für ein offenes Land mit freien Menschen“. Die Geheimpolizei macht die Plakate kaputt."
+    },
+    "leipzig.zs.k.ring": {
+      "n": "Riesige Demonstration auf dem Leipziger Ring. Die Menschen rufen „Wir sind das Volk!“ und „Keine Gewalt!“. Die Sicherheitskräfte greifen nicht ein.",
+      "e": "Sehr viele Menschen gehen um die Innenstadt. Sie rufen: „Keine Gewalt!“ Die Polizei greift nicht ein."
+    },
+    "leipzig.zs.k.mauer": {
+      "n": "In Berlin geht die Mauer auf. Die Grenze ist offen.",
+      "e": "In Berlin geht die Mauer auf."
+    },
+    "leipzig.zs.k.einheit": {
+      "n": "Deutsche Einheit: Die DDR und die Bundesrepublik werden ein Land.",
+      "e": "Deutschland wird wieder ein Land."
+    },
+    "leipzig.zs.loesung": {
+      "n": "Die richtige Reihenfolge: Im September 1982 beginnen die Friedensgebete. Am [4.|vierten] September 1989 zeigen Menschen Plakate. Am [9.|neunten] Oktober 1989 demonstrieren sie auf dem Leipziger Ring. Am [9.|neunten] November 1989 geht die Mauer auf. Am [3.|dritten] Oktober 1990 kommt die Deutsche Einheit.",
+      "e": "So ist es richtig: 1982 beginnen die Friedensgebete. Im September 1989 zeigen Menschen Plakate. Im Oktober 1989 ist die große Demonstration. Im November 1989 geht die Mauer auf. 1990 kommt die Einheit."
+    },
+    "leipzig.zs.ende": {
+      "n": "Richtig sortiert! Als Andenken bekommt ihr eine Säule mit Palmenblättern. Solche Säulen stehen in der Nikolaikirche. Seit 1999 steht eine nachgebildete Säule draußen auf dem Nikolaikirchhof. Sie erinnert daran, wie die Menschen 1989 aus der Kirche auf die Straße gingen.",
+      "e": "Richtig! Ihr bekommt eine Säule mit Palmenblättern. So eine Säule steht in der Kirche. Seit 1999 steht auch eine draußen vor der Kirche."
+    },
+    "leipzig.sf.intro": {
+      "n": "Ich zähle gern Tauben auf dem Marktplatz. Bei zwölf höre ich meistens auf. Am [9.|neunten] Oktober 1989 hätte ich nicht einmal angefangen.",
+      "e": "Ich zähle gern Tauben. Aber am [9.|neunten] Oktober 1989 waren zu viele Menschen da zum Zählen."
+    },
+    "leipzig.sf.frage": {
+      "n": "Wie viele Menschen demonstrierten am [9.|neunten] Oktober 1989 in Leipzig? Beratet euch und gebt eine gemeinsame Schätzung ab.",
+      "e": "Wie viele Menschen waren am [9.|neunten] Oktober 1989 in Leipzig auf der Straße? Schätzt zusammen eine Zahl."
+    },
+    "leipzig.sf.t1": {
+      "n": "Die Menschen zogen über den Leipziger Ring. Das ist die große Straße rund um die Innenstadt.",
+      "e": "Die Menschen gingen auf einer großen Straße um die Innenstadt."
+    },
+    "leipzig.sf.t2": {
+      "n": "Die Zahl hat fünf Stellen und beginnt mit einer 7.",
+      "e": "Die Zahl hat fünf Stellen. Vorne steht eine 7."
+    },
+    "leipzig.sf.loesung": {
+      "n": "Mindestens 70.000 Menschen! Sie riefen „Keine Gewalt!“ und „Wir sind das Volk!“. Die Sicherheitskräfte griffen nicht ein. Alles blieb friedlich.",
+      "e": "Mindestens 70.000 Menschen! Sie riefen: „Keine Gewalt!“ Alles blieb friedlich."
+    },
+    "leipzig.sf.rechenweg": {
+      "n": "Wie viele sind das? Stellt euch Schulklassen mit je 25 Kindern vor: 70.000 [:|geteilt durch] 25 [=|ergibt] 2.800. So viele Schulklassen wären das!",
+      "e": "Stellt euch Schulklassen vor. In jeder sind 25 Kinder. Dann wären das 2.800 Schulklassen!"
+    },
+    "leipzig.sf.ende": {
+      "n": "Als Andenken bekommt ihr eine Kerze. Kerzen gehörten zum friedlichen Protest: Schon 1983 setzten sich in Leipzig Jugendliche nach einem Friedensgebet mit Kerzen auf den Markt.",
+      "e": "Ihr bekommt eine Kerze. Schon 1983 saßen Jugendliche mit Kerzen auf dem Markt. Das war ein friedlicher Protest."
+    },
+    "leipzig.item.saeule": {
+      "n": "In der Nikolaikirche tragen Säulen oben Palmenblätter. Eine Nachbildung steht seit 1999 auf dem Nikolaikirchhof.",
+      "e": "Eine Säule mit Palmenblättern. Wie in der Nikolaikirche."
+    },
+    "leipzig.item.kerze": {
+      "n": "Jedes Jahr am [9.|neunten] Oktober erinnert das Lichtfest in Leipzig an den Herbst 1989.",
+      "e": "Jedes Jahr am [9.|neunten] Oktober feiert Leipzig das Lichtfest."
+    }
+  }
+}

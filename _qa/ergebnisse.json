@@ -1,0 +1,1099 @@
+{
+ "axe_version": "4.14.1",
+ "zeit": "18.11.2026 00:38",
+ "bildschirme": {
+  "ipad-quer": [
+   {
+    "bildschirm": "01-start",
+    "datei": "screenshots/ipad-quer/01-start.png",
+    "verstoesse": []
+   },
+   {
+    "bildschirm": "02-einstellungen",
+    "datei": "screenshots/ipad-quer/02-einstellungen.png",
+    "verstoesse": []
+   },
+   {
+    "bildschirm": "03-gruppe-waehlen",
+    "datei": "screenshots/ipad-quer/03-gruppe-waehlen.png",
+    "verstoesse": []
+   },
+   {
+    "bildschirm": "04-karte",
+    "datei": "screenshots/ipad-quer/04-karte.png",
+    "verstoesse": []
+   },
+   {
+    "bildschirm": "05-karte-liste",
+    "datei": "screenshots/ipad-quer/05-karte-liste.png",
+    "verstoesse": []
+   },
+   {
+    "bildschirm": "06-ort-meissen",
+    "datei": "screenshots/ipad-quer/06-ort-meissen.png",
+    "verstoesse": []
+   },
+   {
+    "bildschirm": "07-ort-freiberg",
+    "datei": "screenshots/ipad-quer/07-ort-freiberg.png",
+    "verstoesse": []
+   },
+   {
+    "bildschirm": "08-ort-leipzig",
+    "datei": "screenshots/ipad-quer/08-ort-leipzig.png",
+    "verstoesse": []
+   },
+   {
+    "bildschirm": "09-spiel-einstieg-rollen",
+    "datei": "screenshots/ipad-quer/09-spiel-einstieg-rollen.png",
+    "verstoesse": []
+   },
+   {
+    "bildschirm": "10-spurensuche-tipp",
+    "datei": "screenshots/ipad-quer/10-spurensuche-tipp.png",
+    "verstoesse": []
+   },
+   {
+    "bildschirm": "11-spurensuche-gefunden",
+    "datei": "screenshots/ipad-quer/11-spurensuche-gefunden.png",
+    "verstoesse": []
+   },
+   {
+    "bildschirm": "12-spurensuche-listenansicht",
+    "datei": "screenshots/ipad-quer/12-spurensuche-listenansicht.png",
+    "verstoesse": []
+   },
+   {
+    "bildschirm": "13-zuordnen",
+    "datei": "screenshots/ipad-quer/13-zuordnen.png",
+    "verstoesse": []
+   },
+   {
+    "bildschirm": "14-zeitstrahl",
+    "datei": "screenshots/ipad-quer/14-zeitstrahl.png",
+    "verstoesse": []
+   },
+   {
+    "bildschirm": "15-schaetzfrage-beraten",
+    "datei": "screenshots/ipad-quer/15-schaetzfrage-beraten.png",
+    "verstoesse": []
+   },
+   {
+    "bildschirm": "16-schaetzfrage-einig",
+    "datei": "screenshots/ipad-quer/16-schaetzfrage-einig.png",
+    "verstoesse": []
+   },
+   {
+    "bildschirm": "17-schaetzfrage-aufloesung",
+    "datei": "screenshots/ipad-quer/17-schaetzfrage-aufloesung.png",
+    "verstoesse": []
+   },
+   {
+    "bildschirm": "18-belohnung",
+    "datei": "screenshots/ipad-quer/18-belohnung.png",
+    "verstoesse": []
+   },
+   {
+    "bildschirm": "19-album",
+    "datei": "screenshots/ipad-quer/19-album.png",
+    "verstoesse": []
+   },
+   {
+    "bildschirm": "20-collage",
+    "datei": "screenshots/ipad-quer/20-collage.png",
+    "verstoesse": []
+   },
+   {
+    "bildschirm": "21-collage-freigabe",
+    "datei": "screenshots/ipad-quer/21-collage-freigabe.png",
+    "verstoesse": []
+   },
+   {
+    "bildschirm": "22-startklar",
+    "datei": "screenshots/ipad-quer/22-startklar.png",
+    "verstoesse": []
+   },
+   {
+    "bildschirm": "23-ortsbeweis",
+    "datei": "screenshots/ipad-quer/23-ortsbeweis.png",
+    "verstoesse": []
+   },
+   {
+    "bildschirm": "24-lehrkraefte-gruppen",
+    "datei": "screenshots/ipad-quer/24-lehrkraefte-gruppen.png",
+    "verstoesse": []
+   },
+   {
+    "bildschirm": "25-lehrkraefte-uebersicht",
+    "datei": "screenshots/ipad-quer/25-lehrkraefte-uebersicht.png",
+    "verstoesse": []
+   },
+   {
+    "bildschirm": "26-lehrkraefte-gruppenansicht",
+    "datei": "screenshots/ipad-quer/26-lehrkraefte-gruppenansicht.png",
+    "verstoesse": []
+   },
+   {
+    "bildschirm": "27-lehrkraefte-bildbeitraege",
+    "datei": "screenshots/ipad-quer/27-lehrkraefte-bildbeitraege.png",
+    "verstoesse": []
+   },
+   {
+    "bildschirm": "28-lehrkraefte-material",
+    "datei": "screenshots/ipad-quer/28-lehrkraefte-material.png",
+    "verstoesse": []
+   },
+   {
+    "bildschirm": "29-qr-codes",
+    "datei": "screenshots/ipad-quer/29-qr-codes.png",
+    "verstoesse": []
+   },
+   {
+    "bildschirm": "30-ueber-lizenzen",
+    "datei": "screenshots/ipad-quer/30-ueber-lizenzen.png",
+    "verstoesse": []
+   },
+   {
+    "bildschirm": "31-barrierefreiheit",
+    "datei": "screenshots/ipad-quer/31-barrierefreiheit.png",
+    "verstoesse": []
+   },
+   {
+    "bildschirm": "32-datenschutz",
+    "datei": "screenshots/ipad-quer/32-datenschutz.png",
+    "verstoesse": []
+   },
+   {
+    "bildschirm": "33-impressum",
+    "datei": "screenshots/ipad-quer/33-impressum.png",
+    "verstoesse": []
+   },
+   {
+    "bildschirm": "34-kontrast-start",
+    "datei": "screenshots/ipad-quer/34-kontrast-start.png",
+    "verstoesse": []
+   },
+   {
+    "bildschirm": "35-kontrast-karte",
+    "datei": "screenshots/ipad-quer/35-kontrast-karte.png",
+    "verstoesse": []
+   },
+   {
+    "bildschirm": "36-kontrast-zeitstrahl",
+    "datei": "screenshots/ipad-quer/36-kontrast-zeitstrahl.png",
+    "verstoesse": []
+   },
+   {
+    "bildschirm": "37-kontrast-gruppenansicht",
+    "datei": "screenshots/ipad-quer/37-kontrast-gruppenansicht.png",
+    "verstoesse": []
+   },
+   {
+    "bildschirm": "38-einfache-sprache-ort",
+    "datei": "screenshots/ipad-quer/38-einfache-sprache-ort.png",
+    "verstoesse": []
+   },
+   {
+    "bildschirm": "39-schrift-sehr-gross-zuordnen",
+    "datei": "screenshots/ipad-quer/39-schrift-sehr-gross-zuordnen.png",
+    "verstoesse": []
+   }
+  ],
+  "ipad-quer-fehler": [
+   "TEXTWACHE text @ #/: /*! axe v4.14.1\n * Copyright (c) 2015 - 2026 Deque Systems, Inc.\n *\n * Your use of this Source Code Form is subject to the terms of the Mozi",
+   "TEXTWACHE text @ #/karte: /*! axe v4.14.1\n * Copyright (c) 2015 - 2026 Deque Systems, Inc.\n *\n * Your use of this Source Code Form is subject to the terms of the Mozi",
+   "TEXTWACHE text @ : /*! axe v4.14.1\n * Copyright (c) 2015 - 2026 Deque Systems, Inc.\n *\n * Your use of this Source Code Form is subject to the terms of the Mozi",
+   "TEXTWACHE text @ : {\n  \"ks.gruppen\": [\n    {\n      \"id\": \"g-3ydmfo1omep\",\n      \"bezeichnung\": \"Fuchs (Beispiel)\",\n      \"angelegt\": 1794958737966,\n      \"schu",
+   "TEXTWACHE text @ : /*! axe v4.14.1\n * Copyright (c) 2015 - 2026 Deque Systems, Inc.\n *\n * Your use of this Source Code Form is subject to the terms of the Mozi",
+   "TEXTWACHE text @ : /*! axe v4.14.1\n * Copyright (c) 2015 - 2026 Deque Systems, Inc.\n *\n * Your use of this Source Code Form is subject to the terms of the Mozi",
+   "TEXTWACHE text @ #/: /*! axe v4.14.1\n * Copyright (c) 2015 - 2026 Deque Systems, Inc.\n *\n * Your use of this Source Code Form is subject to the terms of the Mozi",
+   "TEXTWACHE text @ #/ort/leipzig: /*! axe v4.14.1\n * Copyright (c) 2015 - 2026 Deque Systems, Inc.\n *\n * Your use of this Source Code Form is subject to the terms of the Mozi",
+   "TEXTWACHE text @ #/spiel/meissen-zuordnen: /*! axe v4.14.1\n * Copyright (c) 2015 - 2026 Deque Systems, Inc.\n *\n * Your use of this Source Code Form is subject to the terms of the Mozi"
+  ],
+  "ipad-hoch": [
+   {
+    "bildschirm": "01-start",
+    "datei": "screenshots/ipad-hoch/01-start.png",
+    "verstoesse": []
+   },
+   {
+    "bildschirm": "02-einstellungen",
+    "datei": "screenshots/ipad-hoch/02-einstellungen.png",
+    "verstoesse": []
+   },
+   {
+    "bildschirm": "03-gruppe-waehlen",
+    "datei": "screenshots/ipad-hoch/03-gruppe-waehlen.png",
+    "verstoesse": []
+   },
+   {
+    "bildschirm": "04-karte",
+    "datei": "screenshots/ipad-hoch/04-karte.png",
+    "verstoesse": []
+   },
+   {
+    "bildschirm": "05-karte-liste",
+    "datei": "screenshots/ipad-hoch/05-karte-liste.png",
+    "verstoesse": []
+   },
+   {
+    "bildschirm": "06-ort-meissen",
+    "datei": "screenshots/ipad-hoch/06-ort-meissen.png",
+    "verstoesse": []
+   },
+   {
+    "bildschirm": "07-ort-freiberg",
+    "datei": "screenshots/ipad-hoch/07-ort-freiberg.png",
+    "verstoesse": []
+   },
+   {
+    "bildschirm": "08-ort-leipzig",
+    "datei": "screenshots/ipad-hoch/08-ort-leipzig.png",
+    "verstoesse": []
+   },
+   {
+    "bildschirm": "09-spiel-einstieg-rollen",
+    "datei": "screenshots/ipad-hoch/09-spiel-einstieg-rollen.png",
+    "verstoesse": []
+   },
+   {
+    "bildschirm": "10-spurensuche-tipp",
+    "datei": "screenshots/ipad-hoch/10-spurensuche-tipp.png",
+    "verstoesse": []
+   },
+   {
+    "bildschirm": "11-spurensuche-gefunden",
+    "datei": "screenshots/ipad-hoch/11-spurensuche-gefunden.png",
+    "verstoesse": []
+   },
+   {
+    "bildschirm": "12-spurensuche-listenansicht",
+    "datei": "screenshots/ipad-hoch/12-spurensuche-listenansicht.png",
+    "verstoesse": []
+   },
+   {
+    "bildschirm": "13-zuordnen",
+    "datei": "screenshots/ipad-hoch/13-zuordnen.png",
+    "verstoesse": []
+   },
+   {
+    "bildschirm": "14-zeitstrahl",
+    "datei": "screenshots/ipad-hoch/14-zeitstrahl.png",
+    "verstoesse": []
+   },
+   {
+    "bildschirm": "15-schaetzfrage-beraten",
+    "datei": "screenshots/ipad-hoch/15-schaetzfrage-beraten.png",
+    "verstoesse": []
+   },
+   {
+    "bildschirm": "16-schaetzfrage-einig",
+    "datei": "screenshots/ipad-hoch/16-schaetzfrage-einig.png",
+    "verstoesse": []
+   },
+   {
+    "bildschirm": "17-schaetzfrage-aufloesung",
+    "datei": "screenshots/ipad-hoch/17-schaetzfrage-aufloesung.png",
+    "verstoesse": []
+   },
+   {
+    "bildschirm": "18-belohnung",
+    "datei": "screenshots/ipad-hoch/18-belohnung.png",
+    "verstoesse": []
+   },
+   {
+    "bildschirm": "19-album",
+    "datei": "screenshots/ipad-hoch/19-album.png",
+    "verstoesse": []
+   },
+   {
+    "bildschirm": "20-collage",
+    "datei": "screenshots/ipad-hoch/20-collage.png",
+    "verstoesse": []
+   },
+   {
+    "bildschirm": "21-collage-freigabe",
+    "datei": "screenshots/ipad-hoch/21-collage-freigabe.png",
+    "verstoesse": []
+   },
+   {
+    "bildschirm": "22-startklar",
+    "datei": "screenshots/ipad-hoch/22-startklar.png",
+    "verstoesse": []
+   },
+   {
+    "bildschirm": "23-ortsbeweis",
+    "datei": "screenshots/ipad-hoch/23-ortsbeweis.png",
+    "verstoesse": []
+   },
+   {
+    "bildschirm": "24-lehrkraefte-gruppen",
+    "datei": "screenshots/ipad-hoch/24-lehrkraefte-gruppen.png",
+    "verstoesse": []
+   },
+   {
+    "bildschirm": "25-lehrkraefte-uebersicht",
+    "datei": "screenshots/ipad-hoch/25-lehrkraefte-uebersicht.png",
+    "verstoesse": []
+   },
+   {
+    "bildschirm": "26-lehrkraefte-gruppenansicht",
+    "datei": "screenshots/ipad-hoch/26-lehrkraefte-gruppenansicht.png",
+    "verstoesse": []
+   },
+   {
+    "bildschirm": "27-lehrkraefte-bildbeitraege",
+    "datei": "screenshots/ipad-hoch/27-lehrkraefte-bildbeitraege.png",
+    "verstoesse": []
+   },
+   {
+    "bildschirm": "28-lehrkraefte-material",
+    "datei": "screenshots/ipad-hoch/28-lehrkraefte-material.png",
+    "verstoesse": []
+   },
+   {
+    "bildschirm": "29-qr-codes",
+    "datei": "screenshots/ipad-hoch/29-qr-codes.png",
+    "verstoesse": []
+   },
+   {
+    "bildschirm": "30-ueber-lizenzen",
+    "datei": "screenshots/ipad-hoch/30-ueber-lizenzen.png",
+    "verstoesse": []
+   },
+   {
+    "bildschirm": "31-barrierefreiheit",
+    "datei": "screenshots/ipad-hoch/31-barrierefreiheit.png",
+    "verstoesse": []
+   },
+   {
+    "bildschirm": "32-datenschutz",
+    "datei": "screenshots/ipad-hoch/32-datenschutz.png",
+    "verstoesse": []
+   },
+   {
+    "bildschirm": "33-impressum",
+    "datei": "screenshots/ipad-hoch/33-impressum.png",
+    "verstoesse": []
+   },
+   {
+    "bildschirm": "34-kontrast-start",
+    "datei": "screenshots/ipad-hoch/34-kontrast-start.png",
+    "verstoesse": []
+   },
+   {
+    "bildschirm": "35-kontrast-karte",
+    "datei": "screenshots/ipad-hoch/35-kontrast-karte.png",
+    "verstoesse": []
+   },
+   {
+    "bildschirm": "36-kontrast-zeitstrahl",
+    "datei": "screenshots/ipad-hoch/36-kontrast-zeitstrahl.png",
+    "verstoesse": []
+   },
+   {
+    "bildschirm": "37-kontrast-gruppenansicht",
+    "datei": "screenshots/ipad-hoch/37-kontrast-gruppenansicht.png",
+    "verstoesse": []
+   },
+   {
+    "bildschirm": "38-einfache-sprache-ort",
+    "datei": "screenshots/ipad-hoch/38-einfache-sprache-ort.png",
+    "verstoesse": []
+   },
+   {
+    "bildschirm": "39-schrift-sehr-gross-zuordnen",
+    "datei": "screenshots/ipad-hoch/39-schrift-sehr-gross-zuordnen.png",
+    "verstoesse": []
+   }
+  ],
+  "ipad-hoch-fehler": [
+   "TEXTWACHE text @ #/: /*! axe v4.14.1\n * Copyright (c) 2015 - 2026 Deque Systems, Inc.\n *\n * Your use of this Source Code Form is subject to the terms of the Mozi",
+   "TEXTWACHE text @ #/karte: /*! axe v4.14.1\n * Copyright (c) 2015 - 2026 Deque Systems, Inc.\n *\n * Your use of this Source Code Form is subject to the terms of the Mozi",
+   "TEXTWACHE text @ : /*! axe v4.14.1\n * Copyright (c) 2015 - 2026 Deque Systems, Inc.\n *\n * Your use of this Source Code Form is subject to the terms of the Mozi",
+   "TEXTWACHE text @ : {\n  \"ks.gruppen\": [\n    {\n      \"id\": \"g-bn8kg31kr11x3\",\n      \"bezeichnung\": \"Fuchs (Beispiel)\",\n      \"angelegt\": 1794958777332,\n      \"sc",
+   "TEXTWACHE text @ : /*! axe v4.14.1\n * Copyright (c) 2015 - 2026 Deque Systems, Inc.\n *\n * Your use of this Source Code Form is subject to the terms of the Mozi",
+   "TEXTWACHE text @ : /*! axe v4.14.1\n * Copyright (c) 2015 - 2026 Deque Systems, Inc.\n *\n * Your use of this Source Code Form is subject to the terms of the Mozi",
+   "TEXTWACHE text @ #/: /*! axe v4.14.1\n * Copyright (c) 2015 - 2026 Deque Systems, Inc.\n *\n * Your use of this Source Code Form is subject to the terms of the Mozi",
+   "TEXTWACHE text @ #/ort/leipzig: /*! axe v4.14.1\n * Copyright (c) 2015 - 2026 Deque Systems, Inc.\n *\n * Your use of this Source Code Form is subject to the terms of the Mozi",
+   "TEXTWACHE text @ #/spiel/meissen-zuordnen: /*! axe v4.14.1\n * Copyright (c) 2015 - 2026 Deque Systems, Inc.\n *\n * Your use of this Source Code Form is subject to the terms of the Mozi"
+  ],
+  "smartphone": [
+   {
+    "bildschirm": "01-start",
+    "datei": "screenshots/smartphone/01-start.png",
+    "verstoesse": []
+   },
+   {
+    "bildschirm": "02-einstellungen",
+    "datei": "screenshots/smartphone/02-einstellungen.png",
+    "verstoesse": []
+   },
+   {
+    "bildschirm": "03-gruppe-waehlen",
+    "datei": "screenshots/smartphone/03-gruppe-waehlen.png",
+    "verstoesse": []
+   },
+   {
+    "bildschirm": "04-karte",
+    "datei": "screenshots/smartphone/04-karte.png",
+    "verstoesse": []
+   },
+   {
+    "bildschirm": "05-karte-liste",
+    "datei": "screenshots/smartphone/05-karte-liste.png",
+    "verstoesse": []
+   },
+   {
+    "bildschirm": "06-ort-meissen",
+    "datei": "screenshots/smartphone/06-ort-meissen.png",
+    "verstoesse": []
+   },
+   {
+    "bildschirm": "07-ort-freiberg",
+    "datei": "screenshots/smartphone/07-ort-freiberg.png",
+    "verstoesse": []
+   },
+   {
+    "bildschirm": "08-ort-leipzig",
+    "datei": "screenshots/smartphone/08-ort-leipzig.png",
+    "verstoesse": []
+   },
+   {
+    "bildschirm": "09-spiel-einstieg-rollen",
+    "datei": "screenshots/smartphone/09-spiel-einstieg-rollen.png",
+    "verstoesse": []
+   },
+   {
+    "bildschirm": "10-spurensuche-tipp",
+    "datei": "screenshots/smartphone/10-spurensuche-tipp.png",
+    "verstoesse": []
+   },
+   {
+    "bildschirm": "11-spurensuche-gefunden",
+    "datei": "screenshots/smartphone/11-spurensuche-gefunden.png",
+    "verstoesse": []
+   },
+   {
+    "bildschirm": "12-spurensuche-listenansicht",
+    "datei": "screenshots/smartphone/12-spurensuche-listenansicht.png",
+    "verstoesse": []
+   },
+   {
+    "bildschirm": "13-zuordnen",
+    "datei": "screenshots/smartphone/13-zuordnen.png",
+    "verstoesse": []
+   },
+   {
+    "bildschirm": "14-zeitstrahl",
+    "datei": "screenshots/smartphone/14-zeitstrahl.png",
+    "verstoesse": []
+   },
+   {
+    "bildschirm": "15-schaetzfrage-beraten",
+    "datei": "screenshots/smartphone/15-schaetzfrage-beraten.png",
+    "verstoesse": []
+   },
+   {
+    "bildschirm": "16-schaetzfrage-einig",
+    "datei": "screenshots/smartphone/16-schaetzfrage-einig.png",
+    "verstoesse": []
+   },
+   {
+    "bildschirm": "17-schaetzfrage-aufloesung",
+    "datei": "screenshots/smartphone/17-schaetzfrage-aufloesung.png",
+    "verstoesse": []
+   },
+   {
+    "bildschirm": "18-belohnung",
+    "datei": "screenshots/smartphone/18-belohnung.png",
+    "verstoesse": []
+   },
+   {
+    "bildschirm": "19-album",
+    "datei": "screenshots/smartphone/19-album.png",
+    "verstoesse": []
+   },
+   {
+    "bildschirm": "20-collage",
+    "datei": "screenshots/smartphone/20-collage.png",
+    "verstoesse": []
+   },
+   {
+    "bildschirm": "21-collage-freigabe",
+    "datei": "screenshots/smartphone/21-collage-freigabe.png",
+    "verstoesse": []
+   },
+   {
+    "bildschirm": "22-startklar",
+    "datei": "screenshots/smartphone/22-startklar.png",
+    "verstoesse": []
+   },
+   {
+    "bildschirm": "23-ortsbeweis",
+    "datei": "screenshots/smartphone/23-ortsbeweis.png",
+    "verstoesse": []
+   },
+   {
+    "bildschirm": "24-lehrkraefte-gruppen",
+    "datei": "screenshots/smartphone/24-lehrkraefte-gruppen.png",
+    "verstoesse": []
+   },
+   {
+    "bildschirm": "25-lehrkraefte-uebersicht",
+    "datei": "screenshots/smartphone/25-lehrkraefte-uebersicht.png",
+    "verstoesse": []
+   },
+   {
+    "bildschirm": "26-lehrkraefte-gruppenansicht",
+    "datei": "screenshots/smartphone/26-lehrkraefte-gruppenansicht.png",
+    "verstoesse": []
+   },
+   {
+    "bildschirm": "27-lehrkraefte-bildbeitraege",
+    "datei": "screenshots/smartphone/27-lehrkraefte-bildbeitraege.png",
+    "verstoesse": []
+   },
+   {
+    "bildschirm": "28-lehrkraefte-material",
+    "datei": "screenshots/smartphone/28-lehrkraefte-material.png",
+    "verstoesse": []
+   },
+   {
+    "bildschirm": "29-qr-codes",
+    "datei": "screenshots/smartphone/29-qr-codes.png",
+    "verstoesse": []
+   },
+   {
+    "bildschirm": "30-ueber-lizenzen",
+    "datei": "screenshots/smartphone/30-ueber-lizenzen.png",
+    "verstoesse": []
+   },
+   {
+    "bildschirm": "31-barrierefreiheit",
+    "datei": "screenshots/smartphone/31-barrierefreiheit.png",
+    "verstoesse": []
+   },
+   {
+    "bildschirm": "32-datenschutz",
+    "datei": "screenshots/smartphone/32-datenschutz.png",
+    "verstoesse": []
+   },
+   {
+    "bildschirm": "33-impressum",
+    "datei": "screenshots/smartphone/33-impressum.png",
+    "verstoesse": []
+   },
+   {
+    "bildschirm": "34-kontrast-start",
+    "datei": "screenshots/smartphone/34-kontrast-start.png",
+    "verstoesse": []
+   },
+   {
+    "bildschirm": "35-kontrast-karte",
+    "datei": "screenshots/smartphone/35-kontrast-karte.png",
+    "verstoesse": []
+   },
+   {
+    "bildschirm": "36-kontrast-zeitstrahl",
+    "datei": "screenshots/smartphone/36-kontrast-zeitstrahl.png",
+    "verstoesse": []
+   },
+   {
+    "bildschirm": "37-kontrast-gruppenansicht",
+    "datei": "screenshots/smartphone/37-kontrast-gruppenansicht.png",
+    "verstoesse": []
+   },
+   {
+    "bildschirm": "38-einfache-sprache-ort",
+    "datei": "screenshots/smartphone/38-einfache-sprache-ort.png",
+    "verstoesse": []
+   },
+   {
+    "bildschirm": "39-schrift-sehr-gross-zuordnen",
+    "datei": "screenshots/smartphone/39-schrift-sehr-gross-zuordnen.png",
+    "verstoesse": []
+   }
+  ],
+  "smartphone-fehler": [
+   "TEXTWACHE text @ #/: /*! axe v4.14.1\n * Copyright (c) 2015 - 2026 Deque Systems, Inc.\n *\n * Your use of this Source Code Form is subject to the terms of the Mozi",
+   "TEXTWACHE text @ #/karte: /*! axe v4.14.1\n * Copyright (c) 2015 - 2026 Deque Systems, Inc.\n *\n * Your use of this Source Code Form is subject to the terms of the Mozi",
+   "TEXTWACHE text @ : /*! axe v4.14.1\n * Copyright (c) 2015 - 2026 Deque Systems, Inc.\n *\n * Your use of this Source Code Form is subject to the terms of the Mozi",
+   "TEXTWACHE text @ : {\n  \"ks.gruppen\": [\n    {\n      \"id\": \"g-1w1qdeq1rhdmd4\",\n      \"bezeichnung\": \"Fuchs (Beispiel)\",\n      \"angelegt\": 1794958816801,\n      \"s",
+   "TEXTWACHE text @ : /*! axe v4.14.1\n * Copyright (c) 2015 - 2026 Deque Systems, Inc.\n *\n * Your use of this Source Code Form is subject to the terms of the Mozi",
+   "TEXTWACHE text @ : /*! axe v4.14.1\n * Copyright (c) 2015 - 2026 Deque Systems, Inc.\n *\n * Your use of this Source Code Form is subject to the terms of the Mozi",
+   "TEXTWACHE text @ #/: /*! axe v4.14.1\n * Copyright (c) 2015 - 2026 Deque Systems, Inc.\n *\n * Your use of this Source Code Form is subject to the terms of the Mozi",
+   "TEXTWACHE text @ #/ort/leipzig: /*! axe v4.14.1\n * Copyright (c) 2015 - 2026 Deque Systems, Inc.\n *\n * Your use of this Source Code Form is subject to the terms of the Mozi",
+   "TEXTWACHE text @ #/spiel/meissen-zuordnen: /*! axe v4.14.1\n * Copyright (c) 2015 - 2026 Deque Systems, Inc.\n *\n * Your use of this Source Code Form is subject to the terms of the Mozi"
+  ]
+ },
+ "zielgroessen": {
+  "01-start": [],
+  "02-einstellungen": [],
+  "03-gruppe-waehlen": [],
+  "04-karte": [],
+  "05-karte-liste": [],
+  "06-ort-meissen": [],
+  "07-ort-freiberg": [],
+  "08-ort-leipzig": [],
+  "09-spiel-einstieg-rollen": [],
+  "10-spurensuche-tipp": [],
+  "11-spurensuche-gefunden": [],
+  "12-spurensuche-listenansicht": [],
+  "13-zuordnen": [],
+  "14-zeitstrahl": [],
+  "15-schaetzfrage-beraten": [],
+  "16-schaetzfrage-einig": [],
+  "17-schaetzfrage-aufloesung": [],
+  "18-belohnung": [],
+  "19-album": [],
+  "20-collage": [],
+  "21-collage-freigabe": [],
+  "22-startklar": [],
+  "23-ortsbeweis": [],
+  "24-lehrkraefte-gruppen": [],
+  "25-lehrkraefte-uebersicht": [],
+  "26-lehrkraefte-gruppenansicht": [],
+  "27-lehrkraefte-bildbeitraege": [],
+  "28-lehrkraefte-material": [
+   {
+    "el": "a",
+    "name": "Datenschutz – Daten auf diesem Gerät löschen",
+    "w": 370,
+    "h": 22,
+    "inline": true
+   }
+  ],
+  "29-qr-codes": [],
+  "30-ueber-lizenzen": [
+   {
+    "el": "a",
+    "name": "LICENSE (EUPL-1.2)",
+    "w": 158,
+    "h": 22,
+    "inline": true
+   },
+   {
+    "el": "a",
+    "name": "LICENSE-CONTENT.md (CC BY-SA 4.0)",
+    "w": 313,
+    "h": 22,
+    "inline": true
+   },
+   {
+    "el": "a",
+    "name": "README.md",
+    "w": 98,
+    "h": 22,
+    "inline": true
+   }
+  ],
+  "31-barrierefreiheit": [],
+  "32-datenschutz": [
+   {
+    "el": "a",
+    "name": "info@naila.pro",
+    "w": 112,
+    "h": 22,
+    "inline": true
+   }
+  ],
+  "33-impressum": [
+   {
+    "el": "a",
+    "name": "+49 176 55984980",
+    "w": 155,
+    "h": 22,
+    "inline": true
+   },
+   {
+    "el": "a",
+    "name": "info@naila.pro",
+    "w": 112,
+    "h": 22,
+    "inline": true
+   }
+  ],
+  "34-kontrast-start": [],
+  "35-kontrast-karte": [],
+  "36-kontrast-zeitstrahl": [],
+  "37-kontrast-gruppenansicht": [],
+  "38-einfache-sprache-ort": [],
+  "39-schrift-sehr-gross-zuordnen": []
+ },
+ "tastatur": {
+  "ok": true,
+  "items": [
+   "meissen-tasse",
+   "meissen-teller"
+  ],
+  "tabs": 105,
+  "protokoll": [
+   "Tab ×5 → „Los geht’s!“ (A, Fokusrahmen sichtbar: ja)",
+   "Enter: Spiel starten",
+   "Tab ×3 → „Frei spielen“ (BUTTON, Fokusrahmen sichtbar: ja)",
+   "Enter: Freies Spiel wählen",
+   "Tab ×2 → „Liste“ (BUTTON, Fokusrahmen sichtbar: ja)",
+   "Enter: Orte als Liste anzeigen",
+   "Tab ×1 → „Nach Meißen“ (A, Fokusrahmen sichtbar: ja)",
+   "Enter: Meißen öffnen",
+   "Tab ×3 → „Spielen“ (A, Fokusrahmen sichtbar: ja)",
+   "Enter: Spurensuche starten",
+   "Tab ×7 → „Wir sind bereit – los geht’s!“ (BUTTON, Fokusrahmen sichtbar: ja)",
+   "Enter: Los geht's",
+   "Tab ×9 → „Großer Ofen aus Ziegeln“ (BUTTON, Fokusrahmen sichtbar: ja)",
+   "Enter: „Großer Ofen“ auswählen",
+   "  Fokus danach: „Nächste Aufgabe“",
+   "Enter: weiter",
+   "Tab ×5 → „Säcke mit weißer Erde“ (BUTTON, Fokusrahmen sichtbar: ja)",
+   "Enter: „Säcke mit weißer Erde“ auswählen",
+   "  Fokus danach: „Nächste Aufgabe“",
+   "Enter: weiter",
+   "Tab ×7 → „Frau am Maltisch“ (BUTTON, Fokusrahmen sichtbar: ja)",
+   "Enter: „Frau am Maltisch“ auswählen",
+   "  Fokus danach: „Alles gefunden – weiter“",
+   "Enter: weiter",
+   "Tab ×2 → „Nächstes Spiel an diesem Ort“ (A, Fokusrahmen sichtbar: ja)",
+   "Enter: zum Zuordnen-Spiel",
+   "Tab ×6 → „Wir sind bereit – los geht’s!“ (BUTTON, Fokusrahmen sichtbar: ja)",
+   "Enter: Los geht's",
+   "Tab ×13 → „Gold“ (BUTTON, Fokusrahmen sichtbar: ja)",
+   "Space: Karte „Gold“ wählen",
+   "Tab ×7 → „Ausgewählte Karte hierher legen: Gehört nicht hinein“ (BUTTON, Fokusrahmen sichtbar: ja)",
+   "Enter: in „Gehört nicht hinein“ legen",
+   "Space: Karte „Kaolin“ wählen",
+   "Tab ×5 → „Ausgewählte Karte hierher legen: Gehört in die Porzellanmasse“ (BUTTON, Fokusrahmen sichtbar: ja)",
+   "Enter: in „Gehört in die Porzellanmasse“ legen",
+   "Space: Karte „Mehl“ wählen",
+   "Tab ×6 → „Ausgewählte Karte hierher legen: Gehört nicht hinein“ (BUTTON, Fokusrahmen sichtbar: ja)",
+   "Enter: in „Gehört nicht hinein“ legen",
+   "Space: Karte „Quarz“ wählen",
+   "Tab ×3 → „Ausgewählte Karte hierher legen: Gehört in die Porzellanmasse“ (BUTTON, Fokusrahmen sichtbar: ja)",
+   "Enter: in „Gehört in die Porzellanmasse“ legen",
+   "Space: Karte „Silber“ wählen",
+   "Tab ×5 → „Ausgewählte Karte hierher legen: Gehört nicht hinein“ (BUTTON, Fokusrahmen sichtbar: ja)",
+   "Enter: in „Gehört nicht hinein“ legen",
+   "Space: Karte „Feldspat“ wählen",
+   "Tab ×1 → „Ausgewählte Karte hierher legen: Gehört in die Porzellanmasse“ (BUTTON, Fokusrahmen sichtbar: ja)",
+   "Enter: in „Gehört in die Porzellanmasse“ legen",
+   "  Fokus nach letzter Karte: „Zuordnung prüfen“",
+   "Enter: Zuordnung prüfen (Protokoll)",
+   "  Fokus danach: „Weiter“",
+   "Enter: Weiter",
+   "Tab ×3 → „Zur Karte“ (A, Fokusrahmen sichtbar: ja)",
+   "Enter: zurück zur Karte"
+  ]
+ },
+ "collage": {
+  "ok": true,
+  "protokoll": [
+   "PNG: bb-20261118-0e661ca35ea7.png, 2048 × 2048 px, PNG",
+   "WebP: bb-20261118-0e661ca35ea7-vorschau.webp, 512 × 512 px, WEBP, Kodierung laut JSON: Browser (verlustbehaftet, Qualität 0,9)",
+   "JSON: Pflichtfelder vorhanden: True; Erzeugungsart: regelbasiert; Items: 6; Regler: {'anordnung': 7, 'groesse': 115, 'farbstimmung': 'kerzenschein'}",
+   "JSON enthält keine Namen/Gruppenbezeichnung: True",
+   "Prüfsumme PNG = JSON-Angabe: True",
+   "Aus JSON neu erzeugt: Anzeige „identisch“: True; SHA-256 neu = alt: True",
+   "Eigener WebP-Kodierer (Rückfall für Safari): 512 × 512 px, WEBP, Chunk VP8L, 129376 Byte"
+  ],
+  "meta": {
+   "schema": "klassesachsen-bildbeitrag/1",
+   "kennung": "bb-20261118-0e661ca35ea7",
+   "zeitpunkt": "2026-11-18T00:41:10+01:00",
+   "erzeugungsart": "regelbasiert",
+   "ki": false,
+   "generator": {
+    "name": "klasseSachsen-Collage",
+    "version": "1.0.0"
+   },
+   "items": [
+    "meissen-tasse",
+    "meissen-teller",
+    "freiberg-lampe",
+    "freiberg-erz",
+    "leipzig-saeule",
+    "leipzig-kerze"
+   ],
+   "vorlage": "mosaik",
+   "regler": {
+    "anordnung": 7,
+    "groesse": 115,
+    "farbstimmung": "kerzenschein"
+   },
+   "seed": 226832170,
+   "ausgabe": {
+    "png": {
+     "breite": 2048,
+     "hoehe": 2048,
+     "sha256": "eac828f07041f714d2b69fad3ff698f998e353693a66aec27e1c7dfc4b244db1"
+    },
+    "webp": {
+     "breite": 512,
+     "hoehe": 512,
+     "kodierung": "Browser (verlustbehaftet, Qualität 0,9)"
+    }
+   },
+   "lizenz": "CC BY-SA 4.0",
+   "hinweis": "Enthält keine Namen und keine Gruppenbezeichnung. Das Bild lässt sich aus items, vorlage und regler jederzeit neu erzeugen."
+  }
+ },
+ "extras": {
+  "protokoll": [
+   "Gruppenbericht als PDF erzeugt (Druck-CSS). Enthält Hinweis „Beobachtung, keine Bewertung“: True",
+   "Vorlesen (Standardsprache): Datei meissen.intro.n.mp3, Art audio, nach 1,6 s bei 1.49 s, markiertes Wort „Berg“, Vorleseleiste sichtbar: True",
+   "Tempo 1,5-fach eingestellt: Abspielrate 1.5",
+   "Einfache Sprache: Text beginnt mit „In Meißen steht eine alte Burg. Sie heiß…“; Datei meissen.intro.e.mp3, markiertes Wort „Burg.“",
+   "Vorlese-Test bestanden: True"
+  ],
+  "umbruch": [
+   {
+    "seite": "/",
+    "breite": 320,
+    "fenster": 320,
+    "ok": true
+   },
+   {
+    "seite": "/gruppe",
+    "breite": 320,
+    "fenster": 320,
+    "ok": true
+   },
+   {
+    "seite": "/karte",
+    "breite": 320,
+    "fenster": 320,
+    "ok": true
+   },
+   {
+    "seite": "/ort/meissen",
+    "breite": 320,
+    "fenster": 320,
+    "ok": true
+   },
+   {
+    "seite": "/spiel/meissen-zuordnen",
+    "breite": 320,
+    "fenster": 320,
+    "ok": true
+   },
+   {
+    "seite": "/spiel/leipzig-zeitstrahl",
+    "breite": 320,
+    "fenster": 320,
+    "ok": true
+   },
+   {
+    "seite": "/spiel/freiberg-schaetzfrage",
+    "breite": 320,
+    "fenster": 320,
+    "ok": true
+   },
+   {
+    "seite": "/album",
+    "breite": 320,
+    "fenster": 320,
+    "ok": true
+   },
+   {
+    "seite": "/startklar",
+    "breite": 320,
+    "fenster": 320,
+    "ok": true
+   },
+   {
+    "seite": "/lehrkraefte/gruppen",
+    "breite": 320,
+    "fenster": 320,
+    "ok": true
+   },
+   {
+    "seite": "/lehrkraefte/gruppe/g-1kjezeg1q4rif7",
+    "breite": 320,
+    "fenster": 320,
+    "ok": true
+   }
+  ]
+ },
+ "offline": {
+  "ok": true,
+  "protokoll": [
+   "Service Worker kontrolliert die Seite: True",
+   "Startklar-Check online: grün",
+   "Server beendet und Netz abgeschaltet",
+   "Neu geladen ohne Netz: Überschrift „Startklar-Check“",
+   "Zeitstrahl offline gespielt, Fundstück Palmensäule erhalten: True",
+   "Audio aus dem Cache: Status 200, 109811 Byte; Teilanfrage: Status 206, 100 Byte, bytes 0-99/109811; Wortzeiten: 48",
+   "Audio offline abspielbar: {'ok': True, 'zeit': 0.360297, 'dauer': 21.84127}",
+   "Textseite offline: „Datenschutz“"
+  ]
+ },
+ "kontraste": [
+  {
+   "paar": "Fließtext",
+   "vorne": "#1C2541",
+   "hinten": "#FBF7EF",
+   "verhaeltnis": 14.14
+  },
+  {
+   "paar": "Fließtext auf Karte",
+   "vorne": "#1C2541",
+   "hinten": "#FFFFFF",
+   "verhaeltnis": 15.1
+  },
+  {
+   "paar": "Kleintext",
+   "vorne": "#4A5470",
+   "hinten": "#FBF7EF",
+   "verhaeltnis": 7.04
+  },
+  {
+   "paar": "Kleintext auf Hinweisfläche",
+   "vorne": "#4A5470",
+   "hinten": "#E3EAF8",
+   "verhaeltnis": 6.23
+  },
+  {
+   "paar": "Kleintext auf Fußzeile",
+   "vorne": "#1C2541",
+   "hinten": "#F2EADB",
+   "verhaeltnis": 12.64
+  },
+  {
+   "paar": "Link",
+   "vorne": "#2350A8",
+   "hinten": "#FBF7EF",
+   "verhaeltnis": 7.06
+  },
+  {
+   "paar": "Knopf primär",
+   "vorne": "#FFFFFF",
+   "hinten": "#2350A8",
+   "verhaeltnis": 7.54
+  },
+  {
+   "paar": "Knopf zweit",
+   "vorne": "#18397A",
+   "hinten": "#FFFFFF",
+   "verhaeltnis": 11.02
+  },
+  {
+   "paar": "Knopf grün",
+   "vorne": "#FFFFFF",
+   "hinten": "#1E6B4F",
+   "verhaeltnis": 6.42
+  },
+  {
+   "paar": "Knopf warm (Tipp)",
+   "vorne": "#2B1D00",
+   "hinten": "#F2B23A",
+   "verhaeltnis": 8.76
+  },
+  {
+   "paar": "Knopf rot (Löschen)",
+   "vorne": "#FFFFFF",
+   "hinten": "#B5402A",
+   "verhaeltnis": 5.63
+  },
+  {
+   "paar": "Knopf deaktiviert",
+   "vorne": "#4A5470",
+   "hinten": "#E4E0D8",
+   "verhaeltnis": 5.71
+  },
+  {
+   "paar": "Abzeichen blau",
+   "vorne": "#18397A",
+   "hinten": "#E3EAF8",
+   "verhaeltnis": 9.13
+  },
+  {
+   "paar": "Abzeichen grün",
+   "vorne": "#134733",
+   "hinten": "#DDF0E6",
+   "verhaeltnis": 8.94
+  },
+  {
+   "paar": "Abzeichen warm",
+   "vorne": "#5A3A00",
+   "hinten": "#FDF0D2",
+   "verhaeltnis": 9.1
+  },
+  {
+   "paar": "Hinweisband Lehrkräfte",
+   "vorne": "#FFFFFF",
+   "hinten": "#1C2541",
+   "verhaeltnis": 15.1
+  },
+  {
+   "paar": "Wortmarkierung Vorlesen",
+   "vorne": "#1C2541",
+   "hinten": "#FFBF1F",
+   "verhaeltnis": 9.15
+  },
+  {
+   "paar": "Rollenmarke",
+   "vorne": "#4A5470",
+   "hinten": "#FFFFFF",
+   "verhaeltnis": 7.52
+  },
+  {
+   "paar": "Kartenbeschriftung (SVG)",
+   "vorne": "#33405E",
+   "hinten": "#FFFFFF",
+   "verhaeltnis": 10.32
+  },
+  {
+   "paar": "Kartenbeschriftung Erzgebirge (SVG)",
+   "vorne": "#3B4A2C",
+   "hinten": "#F4F7EA",
+   "verhaeltnis": 8.78
+  },
+  {
+   "paar": "Elbe-Beschriftung (SVG)",
+   "vorne": "#1F5C99",
+   "hinten": "#F4F7EA",
+   "verhaeltnis": 6.34
+  },
+  {
+   "paar": "Formel",
+   "vorne": "#18397A",
+   "hinten": "#E3EAF8",
+   "verhaeltnis": 9.13
+  },
+  {
+   "paar": "Entwurf-Marke",
+   "vorne": "#FFFFFF",
+   "hinten": "#B5402A",
+   "verhaeltnis": 5.63
+  },
+  {
+   "paar": "Kontrastmodus Text",
+   "vorne": "#FFFFFF",
+   "hinten": "#000000",
+   "verhaeltnis": 21.0
+  },
+  {
+   "paar": "Kontrastmodus Akzent",
+   "vorne": "#FFE14D",
+   "hinten": "#000000",
+   "verhaeltnis": 16.13
+  },
+  {
+   "paar": "Kontrastmodus Wortmarkierung",
+   "vorne": "#000000",
+   "hinten": "#00E5FF",
+   "verhaeltnis": 13.65
+  },
+  {
+   "paar": "Fokusrahmen innen (nicht Text, ≥ 3 : 1)",
+   "vorne": "#1C2541",
+   "hinten": "#FBF7EF",
+   "verhaeltnis": 14.14
+  },
+  {
+   "paar": "Fokusrahmen außen gegen Tinte (≥ 3 : 1)",
+   "vorne": "#FFBF1F",
+   "hinten": "#1C2541",
+   "verhaeltnis": 9.15
+  }
+ ]
+}

@@ -1,0 +1,118 @@
+{
+  "paket": "allgemein",
+  "version": 1,
+  "texte": {
+    "start.gurri": {
+      "n": "Gurr! Ich bin Gurri, eine Stadttaube. Ich habe schon auf fast jedem Denkmal in Sachsen gesessen. Aber eine Frage lässt mich nicht los: Was ist eigentlich sächsisch? Findet es mit mir heraus – an drei Orten, ohne Punkte und ohne Zeitdruck.",
+      "e": "Gurr! Ich bin Gurri. Ich bin eine Taube aus der Stadt. Ich frage mich: Was ist sächsisch? Wir suchen die Antwort an drei Orten. Es gibt keine Punkte. Ihr habt Zeit."
+    },
+    "start.ablauf": {
+      "n": "Ihr spielt als Gruppe an einem Gerät. Bei jedem Spiel wechselt ihr die Rollen. Für jedes geschaffte Spiel bekommt ihr ein Fundstück für euer Album.",
+      "e": "Ihr spielt zusammen an einem Gerät. Bei jedem Spiel wechselt ihr die Aufgaben. Für jedes Spiel bekommt ihr ein Fundstück."
+    },
+    "gruppe.intro": {
+      "n": "Wer spielt? Wenn eure Lehrkraft Gruppen angelegt hat, wählt eure Gruppe. Sonst spielt ihr frei.",
+      "e": "Wer spielt? Wählt eure Gruppe. Oder spielt einfach so."
+    },
+    "gruppe.frei": {
+      "n": "Im freien Spiel wird nichts beobachtet. Nur euer Album bleibt auf diesem Gerät gespeichert.",
+      "e": "Im freien Spiel wird nur euer Album gespeichert. Nur auf diesem Gerät."
+    },
+    "karte.gurri": {
+      "n": "Wohin fliegen wir zuerst? Ihr entscheidet! Die Reihenfolge ist ganz egal.",
+      "e": "Wohin wollt ihr zuerst? Ihr dürft wählen."
+    },
+    "karte.fertig": {
+      "n": "Ihr habt alle Orte geschafft! Jetzt könnt ihr euren Bildbeitrag gestalten.",
+      "e": "Ihr habt alle Orte geschafft! Jetzt macht ihr euer Bild."
+    },
+    "rollen.wechsel": {
+      "n": "Rollenwechsel! Gebt das Gerät an die nächste Person weiter. Wer es jetzt hält, übernimmt die Navigation. Die anderen Rollen wandern mit.",
+      "e": "Neue Rollen! Gebt das Gerät an die nächste Person weiter. Wer es jetzt hat, tippt."
+    },
+    "rolle.navigation": {
+      "n": "Navigation: hält das Gerät und tippt.",
+      "e": "Navigation: hält das Gerät und tippt."
+    },
+    "rolle.protokoll": {
+      "n": "Protokoll: fragt, ob alle einverstanden sind, und bestätigt die Antwort.",
+      "e": "Protokoll: fragt alle: Sind wir uns einig? Dann bestätigt es die Antwort."
+    },
+    "rolle.recherche": {
+      "n": "Recherche: liest Infos und Tipps vor und holt Hilfe, wenn ihr feststeckt.",
+      "e": "Recherche: liest die Tipps vor. Holt Hilfe, wenn ihr nicht weiterwisst."
+    },
+    "feedback.spaeter": {
+      "n": "Gut beobachtet! Das braucht ihr gleich noch. Sucht aber zuerst das, was in der Aufgabe steht.",
+      "e": "Gut gesehen! Das kommt gleich noch dran."
+    },
+    "feedback.schon": {
+      "n": "Das habt ihr schon gefunden. Sucht weiter!",
+      "e": "Das habt ihr schon. Sucht weiter!"
+    },
+    "feedback.loesung_markiert": {
+      "n": "Die Lösung ist jetzt markiert. Tippt darauf!",
+      "e": "Die Lösung leuchtet jetzt. Tippt darauf!"
+    },
+    "zuordnen.teil": {
+      "n": "Ein paar Karten liegen noch falsch. Sie sind zurück im Stapel. Lest die Hinweise und versucht es noch einmal!",
+      "e": "Einige Karten sind falsch. Sie sind wieder oben. Versucht es noch einmal!"
+    },
+    "zeitstrahl.teil": {
+      "n": "Noch nicht ganz. Karten mit Haken stehen schon richtig. Verschiebt die anderen.",
+      "e": "Fast! Karten mit Haken sind richtig. Verschiebt die anderen."
+    },
+    "schaetz.beraten": {
+      "n": "Beratet euch: Was wisst ihr schon? Sammelt Ideen, bevor ihr euch auf eine Zahl einigt.",
+      "e": "Sprecht miteinander. Was wisst ihr schon? Dann einigt euch auf eine Zahl."
+    },
+    "schaetz.einig": {
+      "n": "Seid ihr euch alle einig? Dann bestätigt das Protokoll eure gemeinsame Schätzung.",
+      "e": "Seid ihr euch einig? Dann bestätigt eure Zahl."
+    },
+    "schaetz.vergleich": {
+      "n": "Seht euch an, wie nah eure Schätzung an der Lösung liegt. Schätzen heißt nicht raten, sondern klug überlegen.",
+      "e": "Schaut: Wie nah war eure Zahl an der Lösung?"
+    },
+    "fertig.gurri": {
+      "n": "Gurr-artig! Das habt ihr gemeinsam geschafft.",
+      "e": "Super! Ihr habt es zusammen geschafft."
+    },
+    "album.intro": {
+      "n": "Hier sammelt ihr eure Fundstücke. Jedes Spiel hat ein festes Fundstück – nichts ist Zufall.",
+      "e": "Hier sind eure Fundstücke. Jedes Spiel hat ein eigenes Fundstück."
+    },
+    "album.sachsen": {
+      "n": "Porzellan, Silber und Kerzen: Sachsen hat viele Seiten – Erfindergeist, harte Arbeit und Mut. Was ist für euch typisch sächsisch? Sprecht darüber!",
+      "e": "Porzellan, Silber, Kerzen. Sachsen hat viele Seiten. Was ist für euch sächsisch? Sprecht darüber!"
+    },
+    "collage.intro": {
+      "n": "Jetzt gestaltet ihr euren Bildbeitrag! Wählt eure Fundstücke, eine Vorlage und stellt die Regler ein. Das Bild entsteht nach festen Regeln – ohne künstliche Intelligenz.",
+      "e": "Jetzt macht ihr ein Bild. Wählt eure Fundstücke. Wählt eine Vorlage. Stellt die Regler ein."
+    },
+    "collage.regel": {
+      "n": "Gleiche Fundstücke und gleiche Regler ergeben immer das gleiche Bild. Darum kann man euer Bild später genau so wieder erzeugen – auch in groß für die Ausstellung.",
+      "e": "Gleiche Fundstücke und gleiche Regler ergeben immer das gleiche Bild."
+    },
+    "collage.freigabe": {
+      "n": "Euer Bild liegt jetzt bei eurer Lehrkraft. Erst wenn sie es freigibt, darf es in die Ausstellung.",
+      "e": "Eure Lehrkraft schaut sich das Bild an. Erst dann kommt es in die Ausstellung."
+    },
+    "collage.gesperrt": {
+      "n": "Den Bildbeitrag gestaltet ihr am Ende der Reise. Schafft zuerst alle freigegebenen Orte.",
+      "e": "Das Bild kommt am Ende. Spielt zuerst alle Orte."
+    },
+    "beweis.ok": {
+      "n": "Ortsbeweis erbracht! Ihr seid wirklich da. Gespeichert wird nur: Station erreicht. Euer Standort wird nicht gespeichert.",
+      "e": "Super, ihr seid da! Gespeichert wird nur: Station erreicht. Nicht wo ihr seid."
+    },
+    "beweis.falsch": {
+      "n": "Dieser Code passt nicht. Schaut noch einmal genau auf das Schild.",
+      "e": "Der Code passt nicht. Schaut noch einmal."
+    },
+    "startklar.intro": {
+      "n": "Vor dem Ausflug prüft ihr hier im Schul-WLAN, ob alles auf dem Gerät ist: Spiele, Bilder und Vorlese-Ton. Ist alles grün, klappt es auch ohne Internet.",
+      "e": "Hier prüft ihr: Ist alles auf dem Gerät? Ist alles grün, geht es auch ohne Internet."
+    }
+  }
+}
